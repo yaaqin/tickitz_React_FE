@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  width: 130px;
+  border-radius: 15px;
+  background-color: white;
+  color: #5F2EEA;
+  border: #5F2EEA solid 1px;
+}
+
+.btn-primary:hover {
+  background-color: #5F2EEA;
+}
+
+.btn-outline-primary {
+  width: 130px;
+  border-radius: 15px;
+  background-color: white;
+  color: #5F2EEA;
+  border: #5F2EEA solid 1px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #5F2EEA;
+}
+
+.mt-md-10 {
+  margin-top: 100px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #414141;
+}
+
+.text-primary {
+  color: #5F2EEA !important;
+}
+
+.mt-10 {
+  margin-top: 100px;
+}
+
+.pt-title-10 {
+  padding-top: 150px;
+}
+
+#now-showing {
+  background-color: #F5F6F8;
+}
+
+#nowShowingContent {
+  justify-content: space-around;
+}
+
+.justify-content-arround {
+  justify-content: space-around;
+}
+
+.cta {
+  background-color: #F5F6F8;
+}
+
+.emailInput:active{
+  box-shadow: 5px #603cc4;
+}
+
+.cinemasLogo {
+  display: grid;
+  gap: 15px;
+}
+
+/*humberger menu start*/
+
+#hamburgerButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+}
+
+#hamburgerButton:hover {
+  scale: 1.2;
+}
+
+#hamburgerButton i {
+  transition: transform 0.3s ease;
+}
+
+.hamburgerBotton {
+  display: none;
+}
+
+/*humberger menu end*/
+
+#checkboxForNavMobile {
+  display: none;
+}
+
+.navMbl {
+  display: none;
+}
+
+.menuIcon {
+  display: none;
+}
