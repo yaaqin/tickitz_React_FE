@@ -1,136 +1,138 @@
-
-
-.d-mobile {
-    visibility: hidden;
-    display: none;
+@media screen and (max-width: 568px) {
+    
+    
+    .d-mobile {
+        visibility: hidden;
+        display: none;
+    }
+    
+    .mainLogo {
+        padding: 20px;
+    }
+    
+    .pt-title-10 {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    
+    .signBtn {
+        width: 70%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #5F2EEA;
+    }
+    
+    .signBtnText {
+        color: white;
+    }
+    
+    .bannerFilm {
+        height: 420px;
+    }
+    
+    .contentNowShowing {
+        gap: 20px;
+        overflow: scroll;
+    }
+    
+    .firstBannerNowShowing {
+        margin-left: 180px;
+    }
+    
+    .listMonthMobile {
+        overflow: scroll;
+    }
+    
+    .firstMonth {
+        margin-left: 630px;
+    }
+    
+    .listBannerUpcoming {
+        overflow: scroll;
+        gap: 20px;
+    }
+    
+    .firstBannerUpcoming {
+        margin-left: 180px;
+    }
+    
+    .debug {
+        border: 1px solid black;
+    }
+    
+    .footerExplore {
+        text-align: center;
+    }
+    
+    .footerSponsor {
+        display: grid;
+        align-items: center;
+    }
+    
+    .mt-md-10 {
+        margin-top: 30px;
+    }
+    
+    .sponsorFooter {
+        text-align: center;
+    }
+    
+    .cinemasFooter {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footerFollow {
+        text-align: center;
+    }
+    
+    .sosmedFooter {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hamburgerBotton {
+        display: grid;
+    }
+    
+    /* navbar mobile start */
+    
+    #navbarMobile {
+        background-color: #F5F6F8;
+        height: 140px;
+        border-radius: 20px;
+        transition: 1.5s;
+        overflow: hidden;
+    }
+    
+    .hoverScale:hover {
+        scale: 1.2;
+    }
+    
+    /* navbar mobile end */
+    /*mobile navbar start*/
+    
+    .mobileNav {
+        position: absolute;
+        overflow-x: hidden;
+        width: 97%;
+    }
+    
+    .navMbl {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 60vh;
+    }
+    
+    .displayMbl {
+        margin-left: 0;
+    }
+    
+    .menuIcon {
+        display: flex;
+        color: #5F2EEA;
+        margin-top: 20px;
+    }
+    /*mobile navbar end*/
 }
-
-.mainLogo {
-    padding: 20px;
-}
-
-.pt-title-10 {
-    padding-top: 50px;
-    padding-bottom: 80px;
-}
-
-.signBtn {
-    width: 70%;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #5F2EEA;
-}
-
-.signBtnText {
-    color: white;
-}
-
-.bannerFilm {
-    height: 420px;
-}
-
-.contentNowShowing {
-    gap: 20px;
-    overflow: scroll;
-}
-
-.firstBannerNowShowing {
-    margin-left: 180px;
-}
-
-.listMonthMobile {
-    overflow: scroll;
-}
-
-.firstMonth {
-    margin-left: 630px;
-}
-
-.listBannerUpcoming {
-    overflow: scroll;
-    gap: 20px;
-}
-
-.firstBannerUpcoming {
-    margin-left: 180px;
-}
-
-.debug {
-    border: 1px solid black;
-}
-
-.footerExplore {
-    text-align: center;
-}
-
-.footerSponsor {
-    display: grid;
-    align-items: center;
-}
-
-.mt-md-10 {
-    margin-top: 30px;
-}
-
-.sponsorFooter {
-    text-align: center;
-}
-
-.cinemasFooter {
-    display: flex;
-    justify-content: center;
-}
-
-.footerFollow {
-    text-align: center;
-}
-
-.sosmedFooter {
-    display: flex;
-    justify-content: center;
-}
-
-.hamburgerBotton {
-    display: grid;
-}
-
-/* navbar mobile start */
-
-#navbarMobile {
-    background-color: #F5F6F8;
-    height: 140px;
-    border-radius: 20px;
-    transition: 1.5s;
-    overflow: hidden;
-}
-
-.hoverScale:hover {
-    scale: 1.2;
-}
-
-/* navbar mobile end */
-/*mobile navbar start*/
-
-.mobileNav {
-    position: absolute;
-    overflow-x: hidden;
-    width: 97%;
-}
-
-.navMbl {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 60vh;
-}
-
-.displayMbl {
-    margin-left: 0;
-}
-
-.menuIcon {
-    display: flex;
-    color: #5F2EEA;
-    margin-top: 20px;
-}
-/*mobile navbar end*/
