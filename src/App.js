@@ -1,6 +1,8 @@
 import './style/App.css';
 import './style/App.mobile.css';
 
+import MovieComp from './component/posterBanner'
+
 function App() {
   return (
     <div>
@@ -73,56 +75,12 @@ function App() {
           className="d-flex mt-md-5 mt-xs-4 contentNowShowing"
           id="nowShowingContent"
         >
-          <div className="image-poster mt-3 firstBannerNowShowing">
-            <img src="/tickitz_image/poster/Rectangle 1190.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="./tickitz_image/poster/Rectangle 1191.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="./tickitz_image/poster/Rectangle 1192.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="./tickitz_image/poster/Rectangle 1390.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="./tickitz_image/poster/Rectangle 1391.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
+          <MovieComp />
+          <MovieComp />
+          <MovieComp />
+          <MovieComp />
+          <MovieComp />
+
         </div>
       </div>
     </section>
@@ -138,7 +96,10 @@ function App() {
 
         {/* <!--MonthList--> */}
         <div className="d-flex justify-content-arround mt-4 gap-2 listMonthMobile">
-          <button className="btn btn-outline-primary px-4 firstMonth">Jan</button>
+          {["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Des"].map((item) => (
+            <button className='btn btn-outline-primary px-4'>{item}</button>
+          ))}
+          {/* <button className="btn btn-outline-primary px-4 firstMonth">Jan</button>
           <button className="btn btn-outline-primary px-4">Feb</button>
           <button className="btn btn-outline-primary px-4">Mar</button>
           <button className="btn btn-outline-primary px-4">Apr</button>
@@ -149,61 +110,16 @@ function App() {
           <button className="btn btn-outline-primary px-4">Sep</button>
           <button className="btn btn-primary px-4 oct">Oct</button>
           <button className="btn btn-outline-primary px-4">Nov</button>
-          <button className="btn btn-outline-primary px-4">Des</button>
+          <button className="btn btn-outline-primary px-4">Des</button> */}
         </div>
 
         {/* <!--content--> */}
         <div className="d-flex mt-5 listBannerUpcoming" id="nowShowingContent">
-          <div className="image-poster mt-3 firstBannerUpcoming">
-            <img src="/tickitz_image/poster/Rectangle 1190.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="/tickitz_image/poster/Rectangle 1191.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="/tickitz_image/poster/Rectangle 1192.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="/tickitz_image/poster/Rectangle 1390.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
-          <div className="image-poster mt-3">
-            <img src="/tickitz_image/poster/Rectangle 1391.png" alt="poster" />
-            <h5 className="text-center mt-3">Black Widow</h5>
-            <span className="text-muted text-center" style={{fontSize: "14px"}}>
-              Action, Adventure, Sci-Fi</span
-            >
-            <div className="d-grid mt-3">
-              <button className="btn btn-outline-primary">Details</button>
-            </div>
-          </div>
+          <MovieComp />
+          <MovieComp />
+          <MovieComp />
+          <MovieComp />
+          <MovieComp />
         </div>
       </div>
     </section>
