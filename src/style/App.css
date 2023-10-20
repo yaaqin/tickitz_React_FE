@@ -50,6 +50,23 @@ a {
   padding-top: 150px;
 }
 
+.image-poster {
+  cursor: pointer;
+  width: 300px;
+}
+
+.image-poster img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 350px;
+}
+
+.detailBtn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #now-showing {
   background-color: #F5F6F8;
 }
