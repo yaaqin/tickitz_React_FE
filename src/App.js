@@ -9,7 +9,15 @@ import SosmedIcon from "./component/sosmedIcon";
 
 function App() {
   //mounted / mounting
+
+  const date = new Date();
+  const Month = date.toLocaleDateString("default", { month: "short" });
+
   const [result, setResult] = React.useState([]);
+
+  const [slcMonth, setslcMonth] = React.useState([Month.toLowerCase()]);
+
+  console.log(slcMonth[0]);
 
   //lifeCycle
   React.useEffect(() => {
@@ -22,7 +30,7 @@ function App() {
         }
       })
       .catch((error) => console.log(`error : ${error}`));
-  }, [result]);
+  }, []);
 
   return (
     <div>
@@ -115,14 +123,17 @@ function App() {
             className="d-flex mt-md-5 mt-xs-4 contentNowShowing"
             id="nowShowingContent"
           >
-            {result.map((item) => (
-              <MovieComp
-                poster={item.poster}
-                title={item.title}
-                genre={item.genre}
-                desc={item.desc}
-              />
-            ))}
+            {result
+              .filter((item) => item.isShowing)
+              .slice(0, 5)
+              .map((item) => (
+                <MovieComp
+                  poster={item.poster}
+                  title={item.title}
+                  genres={item.genres}
+                  desc={item.desc}
+                />
+              ))}
           </div>
         </div>
       </section>
@@ -154,7 +165,18 @@ function App() {
               "Nov",
               "Des",
             ].map((item) => (
-              <button className="btn btn-outline-primary px-4">{item}</button>
+              <button
+                className={
+                  slcMonth[0] === item.toLowerCase()
+                    ? "btn btnPrimary px-4"
+                    : "btn btn-outline-primary px-4"
+                }
+                onClick={() => {
+                  setslcMonth(item.toLowerCase());
+                }}
+              >
+                {item}
+              </button>
             ))}
           </div>
 
@@ -163,11 +185,28 @@ function App() {
             className="d-flex mt-5 listBannerUpcoming"
             id="nowShowingContent"
           >
-            <MovieComp />
-            <MovieComp />
-            <MovieComp />
-            <MovieComp />
-            <MovieComp />
+            {result
+              .filter((item) => !item.isShowing)
+              .filter((item) => item.showingMonth === slcMonth)
+              .slice(0, 5)
+              .map((item) => (
+                <MovieComp
+                  poster={item.poster}
+                  title={item.title}
+                  genres={item.genres}
+                  desc={item.desc}
+                />
+              ))}
+
+            {/* Movie not Found*/}
+            {result
+              .filter((item) => !item.isShowing)
+              .filter((item) => item.showingMonth === slcMonth).length === 0 ? (
+              <span className="text-center">
+                Movie not found <br />
+                Please Select any Month
+              </span>
+            ) : null}
           </div>
         </div>
       </section>
