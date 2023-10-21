@@ -24,6 +24,18 @@
     "showingMonth": "may"
   },
   {
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWU2ZDIxNjktYjhiYS00NDc1LTg1YWUtYTc1ODRlOTcyYTUzXkEyXkFqcGdeQXVyMTE5NTM5NTU5._V1_FMjpg_UX1000_.jpg",
+    "title": "Fair Play",
+    "desc": "An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel far more than their recent engagement.",
+    "release": "June 28, 2023",
+    "director": "Chloe Domont",
+    "duration": "1 hours 53 minutes ",
+    "cast": ["Eddie Marsan", "Alden Ehrenreich", "Phoebe Dynevor"],
+    "genres": ["drama", "mystery", "thriller"],
+    "isShowing": false,
+    "showingMonth": "may"
+  },
+  {
     "poster": "https://dx35vtwkllhj9.cloudfront.net/universalstudios/the-last-voyage-of-the-demeter/images/regions/us/onesheet.jpg",
     "title": "The Last Voyage",
     "desc": "It took seven years for Irish novelist Bram Stoker to write his seminal classic \"Dracula.\" But would you believe it took Hollywood three times that long to bring The Last Voyage of the Demeter to the screen? Good things seem to come to those who wait, and fans of period horror stories were rewarded when the film finally sailed into theaters this summer. Crafted from a single chapter of the landmark novel, the movie earned high marks from viewers who longed to see an adaptation indulge in the monstrous side of the Transylvanian terror.",
@@ -70,6 +82,18 @@
     "genres": ["horror", "thriller"],
     "isShowing": false,
     "showingMonth": "jan"
+  },
+  {
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGJmNTYyZmUtZGYxYi00MGE5LWI3ZDItMmMwYTQxNzczNzAxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
+    "title": "Alena: Anak Ratu Iblis",
+    "desc": "Hendra and Maya found a small child on their way home. The couple, who were not blessed with children, adopted the child and named it Alena. Since being adopted, Alena has had a positive impact on the family. Hendra, who was previously not very successful in his business, began to feel a drastic change toward success. Hendra and Maya's happiness was complete when they were blessed with a child they were looking forward to. However, irregularities begin to be felt. Everything turns into a disaster until it becomes life-threatening. The cause of the catastrophe turns out to be Alena, the daughter of the Devil Queen.",
+    "release": "January 5, 2023",
+    "director": "Sonu Samtani",
+    "duration": "1h 37m",
+    "cast": ["temmy rahadi", "ririn ekawati", "ciara nadine brosnan"],
+    "genres": ["horror", "thriller"],
+    "isShowing": false,
+    "showingMonth": "may"
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYjA1NjZhYTMtMTA3NC00MWRjLWIyMmUtZTljNGNkZGQ0NTYyXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
