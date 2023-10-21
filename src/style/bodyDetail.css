@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.poster {
+    height: 400px;
+    background-color: grey;
+}
+.poster2 {
+    height: 458px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.imgPoster {
+    width: 332px;
+    height: 458px;
+    border: 3px rgb(172, 159, 159) solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgFilm {
+    width: 236.72px;
+    height: 362.83px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
