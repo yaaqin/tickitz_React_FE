@@ -11,7 +11,7 @@ function Footer() {
             <div className="d-flex justify-content-center">
               <img
                 className="mb-4"
-                src="./tickitz_image/logo/Tickitz 1.png"
+                src="../tickitz_image/logo/Tickitz 1.png"
                 alt="logo"
               />
             </div>
@@ -39,21 +39,21 @@ function Footer() {
               <div className="cinemasFooter">
                 <img
                   className="mb-3"
-                  src="./tickitz_image/cinemas/hiflix 2.png"
+                  src="../tickitz_image/cinemas/hiflix 2.png"
                   alt="hiflix cinemas"
                 />
               </div>
               <div className="cinemasFooter">
                 <img
                   className="mb-3"
-                  src="./tickitz_image/cinemas/ebv.id 2.png"
+                  src="../tickitz_image/cinemas/ebv.id 2.png"
                   alt="cinemas"
                 />
               </div>
               <div className="cinemasFooter">
                 <img
                   className="mb-3"
-                  src="./tickitz_image/cinemas/CineOne21 2.png"
+                  src="../tickitz_image/cinemas/CineOne21 2.png"
                   alt="cinemas"
                 />
               </div>
@@ -70,7 +70,7 @@ function Footer() {
         </div>
 
         <p className="text-center mt-5 mb-3">
-          © 2020 Tickitz. All Rights Reserved.
+          © 2023 Tickitz. All Rights Reserved.
         </p>
       </footer>
     </div>

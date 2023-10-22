@@ -1,17 +1,20 @@
 import React from 'react'
 
+import { Link } from "react-router-dom";
+
+
 function Nav() {
   return (
     <nav className="d-flex justify-content-between align-item-center">
     <div className="d-flex align-item-center gap-5">
       <img
-        src="tickitz_image/logo/Tickitz 1.png"
+        src='../tickitz_image/logo/Tickitz 1.png'
         alt="logo"
         className="mainLogo"
       />
-      <a className="d-mobile mt-3" href="/">
+      <Link to={'/'} className="d-mobile mt-3 hoverScale" href="/">
         Home
-      </a>
+      </Link>
       <a className="d-mobile mt-3" href="/">
         List Movie
       </a>

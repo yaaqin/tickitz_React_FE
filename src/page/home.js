@@ -12,13 +12,15 @@ function Home() {
   //mounted / mounting
 
   const date = new Date();
-  const Month = date.toLocaleDateString("default", { month: "short" });
+  const Month = date
+    .toLocaleDateString("default", { month: "short" })
+    .toLowerCase();
 
   const [result, setResult] = React.useState([]);
 
-  const [slcMonth, setslcMonth] = React.useState([Month.toLowerCase()]);
+  const [slcMonth, setslcMonth] = React.useState(Month);
 
-  console.log(slcMonth[0]);
+  console.log(slcMonth);
 
   //lifeCycle
   React.useEffect(() => {
@@ -35,7 +37,6 @@ function Home() {
 
   return (
     <div>
-
       <Navigasi />
 
       {/* <!--now showing start--> */}
@@ -98,7 +99,7 @@ function Home() {
             ].map((item) => (
               <button
                 className={
-                  slcMonth[0] === item.toLowerCase()
+                  slcMonth === item.toLowerCase()
                     ? "btn btnPrimary px-4"
                     : "btn btn-outline-primary px-4"
                 }

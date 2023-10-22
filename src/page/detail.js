@@ -7,12 +7,14 @@ import Nav from '../component/nav'
 import BodyDetail from '../component/bodyDetail';
 import Footer from '../component/footer'
 
+
 export default function detail() {
   return (
     <div>
         <div className='container pt-4'>
             <Nav />
         </div>
+
        <BodyDetail />
         <div>
             < Footer />
