@@ -178,3 +178,16 @@ a {
   background-color: #603cc4;
   border: #603cc4;
 }
+
+
+.moviesPoster {
+  margin-left: 22px;
+}
+
+.moviesPoster:hover {
+  scale: 1.03;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

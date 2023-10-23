@@ -16,9 +16,9 @@ export default function detail() {
         </div>
 
        <BodyDetail />
-        <div>
-            < Footer />
-        </div>
+        
+      < Footer />
+        
     </div>
   )
 }

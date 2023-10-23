@@ -47,7 +47,7 @@ function BodyDetail() {
       {DetailMovie !== null ? (
         <section id="detailBody" className="mt-5">
           <div className="row">
-            <div className="col-md-4 col-xs-12 d-flex justify-content-center">
+            <div className="col-md-4 col-xs-12 d-flex justify-content-center detailPoster">
               <div className="imgPoster">
                 <img
                   src={DetailMovie.poster}
@@ -74,7 +74,7 @@ function BodyDetail() {
                   <h6 className="detailTitle">{DetailMovie.duration}</h6>
                 </div>
                 <div className="col-md-8 col-xs-12">
-                  <h6 className="text-muted detailTitle">Directed by</h6>
+                  <h6 className="text-muted detailTitle detailDirected">Directed by</h6>
                   <h6 className="detailTitle">{DetailMovie.director}</h6>
                   <h6 className="mt-4 text-muted detailTitle">Cast</h6>
                   <h6 className="detailTitle">

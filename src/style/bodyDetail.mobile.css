@@ -8,4 +8,14 @@
         width: 95%;
     }
 
+    .detailPoster {
+        margin-bottom: 20px;
+    }
+    .detailDirected {
+        margin-top: 15px;
+    }
+
+    #detailBody {
+        margin-bottom: 300px;
+    }
 }

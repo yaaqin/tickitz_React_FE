@@ -8,13 +8,15 @@ function posterBanner(props) {
   return (
     <div className="container singleText">
       <div className=" image-poster mt-3 firstBannerNowShowing">
-        <Link to={`/detail/${title.toLowerCase().split(" ").join("-")}`}>
-          <img src={poster} alt="poster" />
-        </Link>
+        <div className="d-flex justify-content-center">
+          <Link to={`/detail/${title.toLowerCase().split(" ").join("-")}`}>
+            <img src={poster} alt="poster" className="moviesPoster" />
+          </Link>
+        </div>
         <h5 className="text-center mt-3 limit-text ">{title}</h5>
-        <span className="text-muted text-center" style={{ fontSize: "14px" }}>
+        <span className="text-muted text-center capitalize" style={{ fontSize: "14px" }}>
           {genres?.map((item, key) => (
-            <span>{genres.length - 1 === key ? item : `${item},`}</span>
+            <span>{genres.length - 1 === key ? item : `${item}, `}</span>
           ))}
         </span>
         <Link to={`/detail/${title.toLowerCase().split(" ").join("-")}`}>
