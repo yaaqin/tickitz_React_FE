@@ -3,6 +3,7 @@ import React from "react";
 import axios from "axios";
 
 import "../style/bodyDetail.css";
+import "../style/bodyDetail.mobile.css";
 
 import { useParams } from "react-router-dom";
 
@@ -56,8 +57,8 @@ function BodyDetail() {
               </div>
             </div>
             <div className="col-md-8 col-xs-12 poster2">
-              <h1>{DetailMovie.title}</h1>
-              <h4>
+              <h1 className="detailTitle">{DetailMovie.title}</h1>
+              <h4 className="detailTitle">
                 {DetailMovie.genres.map((item, key) => (
                   <span>
                     {DetailMovie.genres.length - 1 === key ? item : `${item}, `}
@@ -67,16 +68,16 @@ function BodyDetail() {
 
               <div className="row mt-4">
                 <div className="col-md-4 col-xs-12">
-                  <h6 className="text-muted">Release date</h6>
-                  <h6>{DetailMovie.release}</h6>
-                  <h6 className="mt-4 text-muted">Duration</h6>
-                  <h6>{DetailMovie.duration}</h6>
+                  <h6 className="text-muted detailTitle">Release date</h6>
+                  <h6 className="detailTitle">{DetailMovie.release}</h6>
+                  <h6 className="mt-4 text-muted detailTitle">Duration</h6>
+                  <h6 className="detailTitle">{DetailMovie.duration}</h6>
                 </div>
                 <div className="col-md-8 col-xs-12">
-                  <h6 className="text-muted">Directed by</h6>
-                  <h6>{DetailMovie.director}</h6>
-                  <h6 className="mt-4 text-muted">Cast</h6>
-                  <h6>
+                  <h6 className="text-muted detailTitle">Directed by</h6>
+                  <h6 className="detailTitle">{DetailMovie.director}</h6>
+                  <h6 className="mt-4 text-muted detailTitle">Cast</h6>
+                  <h6 className="detailTitle">
                     {DetailMovie.cast.map((item, key) => (
                       <span>
                         {DetailMovie.cast.length - 1 === key
@@ -89,8 +90,10 @@ function BodyDetail() {
 
                 <hr className="mt-4 mb-4 ml-5 mr-5" />
 
-                <h4>Synopsis</h4>
-                <span>{DetailMovie.desc}</span>
+                <h4 className="detailTitle">Synopsis</h4>
+                <div className="d-flex justify-content-center ">
+                  <span className="detailSynopsis">{DetailMovie.desc}</span>
+                </div>
               </div>
             </div>
           </div>

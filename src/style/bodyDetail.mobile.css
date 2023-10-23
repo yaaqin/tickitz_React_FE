@@ -1,0 +1,11 @@
+@media screen and (max-width: 568px) {
+    .detailTitle {
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .detailSynopsis {
+        width: 95%;
+    }
+
+}

@@ -1,5 +1,8 @@
 import React from 'react'
 
+import "../style/App.css";
+import "../style/App.mobile.css";
+
 import { Link } from "react-router-dom";
 
 
@@ -20,7 +23,7 @@ function Nav() {
       </a>
     </div>
 
-    <button className="btn btn-primary d-mobile">Sign Up</button>
+    <button className="btn btn-primary d-mobile signUpBtn">Sign Up</button>
 
     {/* <!--hamburger button start--> */}
     <label

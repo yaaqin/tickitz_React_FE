@@ -135,4 +135,10 @@
         margin-top: 20px;
     }
     /*mobile navbar end*/
+    
+    .logoFoot {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }

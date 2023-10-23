@@ -8,14 +8,14 @@ function Footer() {
       <footer className="container pb-3 pt-5 mt-md-10 mt-xs-5" id="footer">
         <div className="row">
           <div className="col-md-3 col-xs-12">
-            <div className="d-flex justify-content-center">
+            <div className="logoFoot">
               <img
                 className="mb-4"
                 src="../tickitz_image/logo/Tickitz 1.png"
                 alt="logo"
               />
             </div>
-            <div className="d-flex text-center justify-content-center">
+            <div className="logoFoot">
               <p style={{ color: "#6d727a" }}>
                 Stop waiting in line. Buy tickets
                 <br />
@@ -62,10 +62,11 @@ function Footer() {
           <div className="col-md-3 col-xs-12">
             <h6 className="mb-4 pt-4 footerFollow">Follow Us</h6>
 
-            <SosmedIcon />
-            <SosmedIcon />
-            <SosmedIcon />
-            <SosmedIcon />
+            <SosmedIcon icon="../tickitz_image/icon_sosmed/eva_facebook-outline.svg" name="Tickitz Cinema id"/>
+            <SosmedIcon icon="../tickitz_image/icon_sosmed/feather_youtube.svg" name="Tickitz Cinema id"/>
+            <SosmedIcon icon="../tickitz_image/icon_sosmed/Vector.svg" name="tickitz.id"/>
+            <SosmedIcon icon="../tickitz_image/icon_sosmed/bx_bxl-instagram.svg" name="tickitz.id"/>
+            
           </div>
         </div>
 

@@ -162,3 +162,19 @@ a {
 .hoverScale:hover {
   scale: 1.2;
 }
+
+
+.signUpBtn {
+  background-color: #603cc4;
+  border: #603cc4;
+}
+
+.joinBtn {
+  background-color: #603cc4;
+  border: #603cc4;
+}
+
+.signUpBtn:active {
+  background-color: #603cc4;
+  border: #603cc4;
+}

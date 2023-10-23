@@ -162,7 +162,7 @@ function Home() {
               placeholder="Type Your Email"
               style={{ width: "300px" }}
             />
-            <button className="btn btn-primary">Join Now</button>
+            <button className="btn btn-primary joinBtn">Join Now</button>
           </div>
 
           <p className="text-center mt-4">
