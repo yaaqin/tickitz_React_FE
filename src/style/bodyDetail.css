@@ -36,3 +36,7 @@ h1 {
 .mt-10 {
     margin-top: 100px;
 }
+
+.capital {
+    text-transform: capitalize;
+}

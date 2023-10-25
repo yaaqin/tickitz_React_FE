@@ -2,6 +2,7 @@
   {
     "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Influencer_Poster.png/800px-Influencer_Poster.png",
     "title": "Influencer",
+    "slug": "Influencer",
     "desc": "Social media fame is the ultimate curse in writer-director Kurtis David Harder’s latest. Released as a Shudder Original, Influencer set itself apart from traditional horror fare by flipping a well-worn trope on its head. From Single White Female to Ingrid Goes West, there’s no shortage of movies about lonely girls making trouble, but this film’s clever twists and shocking turns (particularly after the title sequence) left IMDb fans calling it the most underrated horror movie of the year.",
     "release": "June 28, 2017",
     "director": "Jon Watss",
@@ -9,11 +10,13 @@
     "cast": ["tom holland", "michael keaton", "robert downey jr"],
     "genres": ["horror", "mystery", "thriller"],
     "isShowing": false,
-    "showingMonth": "may"
+    "showingMonth": "may",
+    "basicPrice": 60000
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZDQxZTY0ZDItY2Y0Yy00OTIzLTkwYTgtNmNkODhiYTk4MzUwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "title": "Infinity Pool",
+    "slug": "Infinity-Pool",
     "desc": "James and Em Foster are enjoying an all-inclusive beach vacation in the fictional island of La Tolqa, when a fatal accident exposes the resort's perverse subculture of hedonistic tourism, reckless violence and surreal horrors.",
     "release": "June 28, 2017",
     "director": "Jon Watss",
@@ -21,11 +24,14 @@
     "cast": ["tom holland", "michael keaton", "robert downey jr"],
     "genres": ["crime", "horror", "mystery"],
     "isShowing": false,
-    "showingMonth": "may"
+    "showingMonth": "may",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNWU2ZDIxNjktYjhiYS00NDc1LTg1YWUtYTc1ODRlOTcyYTUzXkEyXkFqcGdeQXVyMTE5NTM5NTU5._V1_FMjpg_UX1000_.jpg",
     "title": "Fair Play",
+    "slug": "Fair-Play",
     "desc": "An unexpected promotion at a cutthroat hedge fund pushes a young couple's relationship to the brink, threatening to unravel far more than their recent engagement.",
     "release": "June 28, 2023",
     "director": "Chloe Domont",
@@ -33,11 +39,14 @@
     "cast": ["Eddie Marsan", "Alden Ehrenreich", "Phoebe Dynevor"],
     "genres": ["drama", "mystery", "thriller"],
     "isShowing": false,
-    "showingMonth": "may"
+    "showingMonth": "may",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://dx35vtwkllhj9.cloudfront.net/universalstudios/the-last-voyage-of-the-demeter/images/regions/us/onesheet.jpg",
     "title": "The Last Voyage",
+    "slug": "The-Last-Voyage",
     "desc": "It took seven years for Irish novelist Bram Stoker to write his seminal classic \"Dracula.\" But would you believe it took Hollywood three times that long to bring The Last Voyage of the Demeter to the screen? Good things seem to come to those who wait, and fans of period horror stories were rewarded when the film finally sailed into theaters this summer. Crafted from a single chapter of the landmark novel, the movie earned high marks from viewers who longed to see an adaptation indulge in the monstrous side of the Transylvanian terror.",
     "release": "June 28, 2017",
     "director": "Jon Watss",
@@ -45,11 +54,14 @@
     "cast": ["tom holland", "michael keaton", "robert downey jr"],
     "genres": ["fantasy", "horror"],
     "isShowing": false,
-    "showingMonth": "apr"
+    "showingMonth": "apr",
+    "basicPrice": 60000
+
   },
   {
     "poster": "https://www.themoviedb.org/t/p/original/jFC4LS5qTAT3PinzdEzINfu1CV9.jpg",
     "title": "The Pope's Exorcist",
+    "slug": "The-Pope's-Exorcist",
     "desc": "Follow Gabriele Amorth, the Vatican's leading exorcist, as he investigates the possession of a child and uncovers a conspiracy the Vatican has tried to keep secret.",
     "release": "June 28, 2017",
     "director": "Jon Watss",
@@ -57,11 +69,14 @@
     "cast": ["tom holland", "michael keaton", "robert downey jr"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "apr"
+    "showingMonth": "apr",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMmY5ZGE4NmUtZWI4OS00ZWJmLWFjMzgtOWUyZjI4NDg3Y2E5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "title": "Talk to Me",
+    "slug": "Talk-to-Me",
     "desc": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
     "release": "June 28, 2017",
     "director": "Jon Watss",
@@ -69,11 +84,14 @@
     "cast": ["tom holland", "michael keaton", "robert downey jr"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "may"
+    "showingMonth": "may",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNGJmNTYyZmUtZGYxYi00MGE5LWI3ZDItMmMwYTQxNzczNzAxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Alena: Anak Ratu Iblis",
+    "slug": "Alena:-Anak-Ratu-Iblis",
     "desc": "Hendra and Maya found a small child on their way home. The couple, who were not blessed with children, adopted the child and named it Alena. Since being adopted, Alena has had a positive impact on the family. Hendra, who was previously not very successful in his business, began to feel a drastic change toward success. Hendra and Maya's happiness was complete when they were blessed with a child they were looking forward to. However, irregularities begin to be felt. Everything turns into a disaster until it becomes life-threatening. The cause of the catastrophe turns out to be Alena, the daughter of the Devil Queen.",
     "release": "January 5, 2023",
     "director": "Sonu Samtani",
@@ -81,11 +99,14 @@
     "cast": ["temmy rahadi", "ririn ekawati", "ciara nadine brosnan"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "jan"
+    "showingMonth": "jan",
+    "basicPrice": 80000
+    
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNGJmNTYyZmUtZGYxYi00MGE5LWI3ZDItMmMwYTQxNzczNzAxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Alena: Anak Ratu Iblis",
+    "slug": "Alena:-Anak-Ratu-Iblis",
     "desc": "Hendra and Maya found a small child on their way home. The couple, who were not blessed with children, adopted the child and named it Alena. Since being adopted, Alena has had a positive impact on the family. Hendra, who was previously not very successful in his business, began to feel a drastic change toward success. Hendra and Maya's happiness was complete when they were blessed with a child they were looking forward to. However, irregularities begin to be felt. Everything turns into a disaster until it becomes life-threatening. The cause of the catastrophe turns out to be Alena, the daughter of the Devil Queen.",
     "release": "January 5, 2023",
     "director": "Sonu Samtani",
@@ -93,11 +114,14 @@
     "cast": ["temmy rahadi", "ririn ekawati", "ciara nadine brosnan"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "may"
+    "showingMonth": "may",
+    "basicPrice": 80000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYjA1NjZhYTMtMTA3NC00MWRjLWIyMmUtZTljNGNkZGQ0NTYyXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Puisi Cinta",
+    "slug": "Puisi-Cinta",
     "desc": "Words of poetry spell certain death when a young woman grows increasingly distraught after a string of unusual murders take place.",
     "release": "January 5, 2023",
     "director": "Garin Nugroho",
@@ -105,11 +129,14 @@
     "cast": ["Mawar Eva de Jongh", "Baskara Mahendra", "Morgan Oey"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "jan"
+    "showingMonth": "jan",
+    "basicPrice": 85000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNTY2MTk0NWQtMWNjNy00MTBlLTgzMDItNmFlYjFmNjRlZWVhXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Anak Titipan Setan",
+    "slug": "Anak-Titipan-Setan",
     "desc": "Eyang Susana made a gift agreement with a demon named 'Jaran Penoleh'. The agreement made her have to prepare sacrifices in the form of 10 year old children to the devil. If can't, then Eyang Susana's life will be at stake.",
     "release": "January 12, 2023",
     "director": "Erwin Arnada",
@@ -117,11 +144,14 @@
     "cast": ["Gisella Anastasia", "Ingrid Widjanarko", "Annisa Hertami"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "feb"
+    "showingMonth": "feb",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYzFjYTc3MTQtODdmZS00ODdlLWIzMmUtOWM5YTZjOTA4ODZkXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Hidayah",
+    "slug": "Hidayah",
     "desc": "Bahri, a young man who lives in Mekarsari Village. One day, Bahri realized that something was wrong in Mekarsari Village. Out of curiosity, he also found out what was really going on in the village where he lived.",
     "release": "January 12, 2023",
     "director": "Dedy Kopola",
@@ -129,11 +159,14 @@
     "cast": ["Ajil Ditto", "Givina Lukita", "Alif Joerg"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "feb"
+    "showingMonth": "feb",
+    "basicPrice": 60000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZmNhMmMzMzMtODVhOS00Mzk1LWJiOWEtZDhlOTc4OTE3MWMwXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Bayi Ajaib",
+    "slug": "Bayi-Ajaib",
     "desc": "A newly rich and recently married man's comfortable life threatens to crumble when his infant child is possessed by an unholy spirit with a grudge.",
     "release": "January 19, 2023",
     "director": "Rako Prijanto",
@@ -141,11 +174,14 @@
     "cast": ["Vino G. Bastian", "Adipati Dolken", "Desy Ratnasari"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "feb"
+    "showingMonth": "feb",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZDcyY2M1ODUtMGUyZC00YWFjLThkNzktNWUzY2RjNTlkODAzXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Jalan yang Jauh, Jangan Lupa Pulang",
+    "slug": "Jalan-yang-Jauh,-Jangan-Lupa-Pulang",
     "desc": "Studying abroad in London, Aurora struggles with her relationships while away from her family in this sequel to One Day We'll Talk About Today.",
     "release": "February 2, 2023",
     "director": "Angga Dwimas Sasongko",
@@ -153,11 +189,14 @@
     "cast": ["Sheila Dara Aisha", "Jerome Kurnia", "Lutesha"],
     "genres": ["drama"],
     "isShowing": false,
-    "showingMonth": "feb"
+    "showingMonth": "feb",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZDEyOTNlMGItZmYzMC00NTgzLTgxZTctMjhmZjkzYmQ1YWU5XkEyXkFqcGdeQXVyMjMxNjQ4MDI@._V1_.jpg",
     "title": "Tanpa Ampun",
+    "slug": "Tanpa-Ampun",
     "desc": "Based on real events, four professional bank robbers and ATM machine breakers from Russia go on rampage in Bali. The Balinese police force are in hot pursuit to catch the robbers.",
     "release": "February 2, 2023",
     "director": "Muhammad Yusuf",
@@ -165,11 +204,14 @@
     "cast": ["Verdy Bhawanta", "Franki Darmawan", "Daniel Immanuel Octavianus"],
     "genres": ["action", "crime", "drama"],
     "isShowing": false,
-    "showingMonth": "feb"
+    "showingMonth": "feb",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMjIzYzJlNDYtOGQ2Ny00NGJkLWJkNTQtZjc1ZWYxM2EwOGU2XkEyXkFqcGdeQXVyMTYwNDY3MjIw._V1_FMjpg_UX1000_.jpg",
     "title": "Tasbih Kosong",
+    "slug": "Tasbih-Kosong",
     "desc": "Asti and Umar, the employees of a Statistics Office, are assigned to update data in a remote village in a district in Sulawesi. Umar and Asti do not realize that the place where they are taking shelter is the house of the man who made a deal with the devil to become rich instantly. Difficult road access and long distances between houses become obstacles, so they are forced to live in the village for quite a long time. One day, Umar meets Rajeng, and they fall in love. Unknowingly, Rajeng entered into an agreement with her adoptive parents as the successor to the black magic they had. The arrival of Asti and Umar exposes various guises of the local villagers. Asti and Umar's lives begin to feel threatened.",
     "release": "February 2, 2023",
     "director": "Arie Achmad Buang",
@@ -177,11 +219,14 @@
     "cast": ["Fritz Frederich", "Riskyana Hidayat", "St. Ardiana Arifin"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "feb"
+    "showingMonth": "feb",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYmM1OGMyMzktYTMwZS00ZDY2LTg1ZTUtMmZjYzM3Y2JkOTY4XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Waktu Maghrib",
+    "slug": "Waktu-Maghrib",
     "desc": "In a village there is a girl who says goodbye to the mosque to pray maghrib to her father.",
     "release": "February 9, 2023",
     "director": "Sidharta Tata",
@@ -189,11 +234,14 @@
     "cast": ["Nafiza Fatia Rani", "Ali Fikry", "Bima Sena"],
     "genres": ["horror", "mystery", "thriller"],
     "isShowing": false,
-    "showingMonth": "apr"
+    "showingMonth": "apr",
+    "basicPrice": 80000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BOTI1OGJkOWItMmI0ZC00NmEwLTgzYmMtM2FiZmYxYWIxNjQ3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Gita Cinta dari SMA",
+    "slug": "Gita-Cinta-dari-SMA",
     "desc": "Love slowly grows when the new girl in school meets an unassuming boy from a run-down part of town, but her disapproving father stops them at every turn.",
     "release": "February 9, 2023",
     "director": "Monty Tiwa",
@@ -201,11 +249,14 @@
     "cast": ["Prilly Latuconsina", "Yesaya Abraham", "Arla Ailani"],
     "genres": ["drama", "romance"],
     "isShowing": false,
-    "showingMonth": "apr"
+    "showingMonth": "apr",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNzgzODVhMmUtMWVjYi00ZjQxLTk4MDktY2QzYTBiMjM4NGE0XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Virgo and the Sparklings",
+    "slug": "Virgo-and-the-Sparklings",
     "desc": "Riani, a teenager who is forced to reveal her hidden powers when several mysterious cases occur and turn the city into chaos.",
     "release": "March 2, 2023",
     "director": "Ody C. Harahap",
@@ -213,11 +264,14 @@
     "cast": ["Adhisty Zara", "Bryan Domani", "Mawar Eva de Jongh"],
     "genres": ["action", "comedy", "drama"],
     "isShowing": false,
-    "showingMonth": "apr"
+    "showingMonth": "apr",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BM2Q0NmNjM2UtZThlZi00MmZlLTg1ZTUtMTJlM2M5MGU1ZjgwXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Kembang Api",
+    "slug": "Kembang-Api",
     "desc": "4 people intend to commit suicide together by blowing themselves up using a large ball of fireworks.",
     "release": "March 2, 2023",
     "director": "Herwin Novianto",
@@ -225,11 +279,14 @@
     "cast": ["Marsha Timothy", "Ringgo Agus Rahman", "Donny Damara"],
     "genres": ["drama", "thriller"],
     "isShowing": false,
-    "showingMonth": "apr"
+    "showingMonth": "apr",
+    "basicPrice": 60000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMWQ3ZmMxZTAtNzA3NC00NzkwLThjZTMtN2JmMjUxZmRjYWVmXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Perjanjian Gaib",
+    "slug": "Perjanjian-Gaib",
     "desc": "Andri and Wati are a young couple who are willing to do anything for money, even supernatural things like 'praying' at a sacred grave.",
     "release": "March 9, 2023",
     "director": "Hadrah Daeng Ratu",
@@ -237,11 +294,14 @@
     "cast": ["Ayu Laksmi", "Della Dartyan", "Dennis Adhiswara"],
     "genres": ["comedy", "horror"],
     "isShowing": false,
-    "showingMonth": "mar"
+    "showingMonth": "mar",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMGNhMjViNTctYmRhOC00YzY4LWIwZTEtZWQ0ZTY4MWY2NGVmXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Iblis Dalam Darah",
+    "slug": "Iblis-Dalam-Darah",
     "desc": "Haruni screams in pain of being possessed by a devil. Besides being in pain, she also tends to hurt herself. Haruni's sister, Hanum, has glaucoma. Dr. Ahmad, who is treating Hanum, hears Haruni's story. He then treats Haruni during the night of the recitation. Haruni's body spasms violently, manage to release all the bonds on her body and jumps into the window of the house's second floor. Ahmad suspects that Haruni has a connection with a suicide case. The body of the person who killed himself was also possessed by the demon flowing in Haruni's blood. Ahmad and a police friend help Haruni's problems, looking for data on the man who had committed suicide and expelling the evil spirit from Haruni's body.",
     "release": "March 16, 2023",
     "director": "Yannie Sukarya",
@@ -249,11 +309,14 @@
     "cast": ["Michelle Joan", "Ryaas Randa", "Cut Ashifa"],
     "genres": ["horror", "mystery"],
     "isShowing": false,
-    "showingMonth": "mar"
+    "showingMonth": "mar",
+    "basicPrice": 85000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZjcwOGQ0MWEtZTg2My00YTc3LTlkY2YtZGFiZjMwMTZkZTAwXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Losmen Melati",
+    "slug": "Losmen-Melati",
     "desc": "Seeking shelter in a forgotten part of town, travelers get trapped inside a cursed motel - while its host forces them to face its darkest terrors.",
     "release": "March 16, 2023",
     "director": "Mike Wiluan",
@@ -261,11 +324,14 @@
     "cast": ["Alexandra Gottardo", "Kiki Narendra", "Samuel Panjaitan"],
     "genres": ["horror", "mystery", "thriller"],
     "isShowing": false,
-    "showingMonth": "mar"
+    "showingMonth": "mar",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNjlkNDIwZDgtZjczMi00YjhmLTgwZjAtZDk0NzEzMzFmYzRiXkEyXkFqcGdeQXVyODcyNzYyMDU@._V1_.jpg",
     "title": "Kartu Pos Wini",
+    "slug": "Kartu-Pos-Wini",
     "desc": "A post office employee who wants to help a little girl with blood cancer find her hope.",
     "release": "April 6, 2023",
     "director": "Tarmizi Abka",
@@ -273,11 +339,14 @@
     "cast": ["Keiko Ananta", "Fiedra Azalia", "Grace Kaitlin"],
     "genres": ["drama", "family"],
     "isShowing": false,
-    "showingMonth": "mar"
+    "showingMonth": "mar",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNDI3YmY4YmEtZjBkMy00MDllLTg1ZWQtMjEzZWJjZDFmODkyXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_.jpg",
     "title": "Kutukan Cakar Monyet",
+    "slug": "Kutukan-Cakar-Monyet",
     "desc": "A greedy husband and wife use a monkey claw amulet given by a shaman so they can get rich quickly.",
     "release": "April 6, 2023",
     "director": "Ferry L.",
@@ -285,11 +354,14 @@
     "cast": ["Oka Antara", "Aurélie Moeremans", "Unique Priscilla"],
     "genres": ["drama", "horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "mar"
+    "showingMonth": "mar",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMjhkZjQyOGYtM2Y3OS00ZDFjLWFiMTEtMzJmNjBjNmM0MTFiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Buya Hamka Vol. I",
+    "slug": "Buya-Hamka-Vol.-I",
     "desc": "This sweeping biopic captures the life of renowned Muslim scholar Buya Hamka, from his humble West Sumatra origins to his political achievements.",
     "release": "April 19, 2023",
     "director": "Fajar Bustomi",
@@ -297,11 +369,14 @@
     "cast": ["Vino G. Bastian", "Laudya Cynthia Bella", "Donny Damara"],
     "genres": ["biography", "drama", "history"],
     "isShowing": false,
-    "showingMonth": "jan"
+    "showingMonth": "jan",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMjE0YjAyNzEtNTNjNS00NzY1LTlmMDEtOTQ2YjI1ZjNjMDY2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Sewu Dino",
+    "slug": "Sewu-Dino",
     "desc": "Sri is tasked to do a cleansing ritual for Dela Atmojo, an unconscious girl who is suffering from 1000 days-hex. The terror begins when her friend neglects to finish the ritual. Failing until the 1000th day will result in their demise.",
     "release": "April 19, 2023",
     "director": "Kimo Stamboel",
@@ -309,11 +384,14 @@
     "cast": ["Mikha Tambayong", "Rio Dewanto", "Givina Lukita"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "jan"
+    "showingMonth": "jan",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMzEyMzQ5YmYtODRkYS00ZDVkLWIwMjQtZDc1NTQ2OTViMWJiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Khanzab",
+    "slug": "Khanzab",
     "desc": "After his father was beheaded by ninjas in Banyuwangi '98, Rahayu was traumatized to the point where he found it difficult to concentrate on his prayers due to interference from the khanzab.",
     "release": "April 19, 2023",
     "director": "Anggy Umbara",
@@ -321,11 +399,14 @@
     "cast": ["Tika Bravani", "Yasamin Jasem", "Arswendy Bening Swara"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "jan"
+    "showingMonth": "jan",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNzU0ZGE4ODctY2Q2YS00MzM0LTk3NWQtMzA4OTQ4NWFlNWE0XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Dedemit - Diikuti Makhluk Halus",
+    "slug": "Dedemit-Diikuti-Makhluk-Halus",
     "desc": "After her sister's death, a woman goes to Makassar to uncover her father's secret legacy house and encounters a mysterious woman guarding the well-maintained property.",
     "release": "May 4, 2023",
     "director": "Hendra Sirajuddin",
@@ -333,11 +414,14 @@
     "cast": ["Ikram Noer", "Fildza Burhan", "Nurfadilah Hanifah"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMjY3NTg5NmItZTVhMy00NjEyLTgzZjEtYmU1M2Y1OWNkZTZjXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Angel: Kami Semua Punya Mimpi",
+    "slug": "Angel:-Kami-Semua-Punya-Mimpi",
     "desc": "A guilt-ridden young woman who moves to Jogja to escape the memory of her brother meets a man with autism and with the help of a new friend, sets out to make his dream of playing with his idol a reality.",
     "release": "May 4, 2023",
     "director": "Ivan Hamdhani Putera",
@@ -345,11 +429,14 @@
     "cast": ["Beby Tsabina", "Ari Irham", "Fico Fachriza"],
     "genres": ["drama"],
     "isShowing": false,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 85000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMTA4MWEwMWItZDMwZi00ZjEwLThjZTAtNzdkYjEzMmI3OTI2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Hello Ghost",
+    "slug": "Hello-Ghost",
     "desc": "After a failed suicide attempt, Kresna is pursued by four ghosts who will only leave him alone if he fulfills their requests, leading him to find a new meaning in life and love for Nurse Linda.",
     "release": "May 11, 2023",
     "director": "Indra Gunawan",
@@ -357,11 +444,14 @@
     "cast": ["Onadio Leonardo", "Enzy Storia", "Indro Warkop"],
     "genres": ["comedy", "drama"],
     "isShowing": false,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BN2ViZDc5MzAtYjViOC00YzlmLWFhOTktMjc5MDI5ZTQ0NzE0XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Bukannya Aku Tidak Mau Nikah",
+    "slug": "Bukannya-Aku-Tidak-Mau-Nikah",
     "desc": "A woman finds her false love in Bali but gets caught in a dilemma between choosing her fiancé or following her heart.",
     "release": "May 11, 2023",
     "director": "Guntur Soeharjanto",
@@ -369,11 +459,14 @@
     "cast": ["Amanda Rawles", "Daffa Wardhana", "Roy Sungkono"],
     "genres": ["drama"],
     "isShowing": false,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMDZhZTQyNGItYWJiYy00MDg4LWFjZmMtNTBmMmMzMDliZTk5XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Kajiman: Iblis Terkejam Penagih Janji",
+    "slug": "Kajiman:-Iblis-Terkejam-Penagih-Janji",
     "desc": "A nurse experiences supernatural terror while caring for an elderly patient and seeks help from a friend to uncover a dark ritual.",
     "release": "May 18, 2023",
     "director": "Adriyanto Dewo",
@@ -381,11 +474,14 @@
     "cast": ["Aghniny Haque", "Jourdy Pranata", "Tyo Pakusadewo"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMDI5MWQwNzgtOTNjMi00Njc4LWE5OGUtYjI3NTYzMjQ2ZTljXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Detektif Jaga Jarak",
+    "slug": "Detektif-Jaga-Jarak",
     "desc": "In their quest to prove infidelity and ensure a successful marriage, Almond and Takdir embark on a thrilling adventure as detectives, uncovering cases of betrayal and deception.",
     "release": "June 1, 2023",
     "director": "Rahabi Mandra",
@@ -393,11 +489,14 @@
     "cast": ["Marthino Lio", "Bima Sena", "Hana Malasan"],
     "genres": ["comedy", "drama"],
     "isShowing": false,
-    "showingMonth": "jun"
+    "showingMonth": "jun",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BOGZlNDM2MDEtNzA2My00MTdhLTk1NWYtMjlmYjEwMTVmMDAxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Spirit Doll",
+    "slug": "Spirit-Doll",
     "desc": "After a renowned horror actress, Dara Lazuardi, encounters a haunted doll resembling her deceased daughter, she becomes convinced of its connection to her child's spirit, leading her into a spiral of madness as others try to intervene.",
     "release": "June 1, 2023",
     "director": "Azhar Kinoi Lubis",
@@ -405,11 +504,14 @@
     "cast": ["Anya Geraldine", "Samuel Rizal", "Annette Edoarda"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "jun"
+    "showingMonth": "jun",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMzg4MTY3ZmMtMWQyZi00OTllLWFkNmUtMTJiNDZmYmY4YzQ0XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Kutukan Sembilan Setan",
+    "slug": "Kutukan-Sembilan-Setan",
     "desc": "Five friends encounter terrifying demons and unravel the mysteries of an old villa during their vacation in Bromo, leading to conflicts and revelations about the dark secrets of its past.",
     "release": "June 8, 2023",
     "director": "Arie Azis",
@@ -417,11 +519,14 @@
     "cast": ["Fandy Christian", "Ajil Ditto", "Denira Wiraguna"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "jun"
+    "showingMonth": "jun",
+    "basicPrice": 60000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BODYxMzJiMGMtODgxOS00N2E0LThmOGUtMmE4ZTExNGY0ODRmXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Star Syndrome",
+    "slug": "Star-Syndrome",
     "desc": "A former lead vocalist of a highly acclaimed band tries to regain his popularity in the music industry, which has evolved significantly since his prime.",
     "release": "June 8, 2023",
     "director": "Soleh Solihun",
@@ -429,11 +534,14 @@
     "cast": ["Gilang Dirga", "Kezia Aletheia", "Tissa Biani Azzahra"],
     "genres": ["comedy", "drama", "music"],
     "isShowing": false,
-    "showingMonth": "jun"
+    "showingMonth": "jun",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMjcwMWNjZGMtYzYxNi00MDc4LWFmMjMtNmU3ZTFhOTYzYjkxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Sosok Ketiga",
+    "slug": "Sosok-Ketiga",
     "desc": "Anton's marriage to Yuni, his wife's friend, triggers a series of supernatural terrors and conflicts, leaving Nuri disappointed and Yuni's mother fearing for the safety of her child and future grandchildren.",
     "release": "June 22, 2023",
     "director": "Dedy Mercy",
@@ -441,11 +549,14 @@
     "cast": ["Celine Evangelista", "Erika Carlina", "Samuel Rizal"],
     "genres": ["drama", "horror"],
     "isShowing": false,
-    "showingMonth": "jun"
+    "showingMonth": "jun",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZTJkNTI0YzMtYzUzYS00NjNhLTlmYjYtNWRiNzk3NGZlMzBmXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Kejar Mimpi, Gaspol!",
+    "slug": "Kejar-Mimpi,-Gaspol!",
     "desc": "A single mother from Bromo does not dare to pursue her dream and carry out her passion, which is writing, because she thinks that her only duty is to make her daughter's dream come false.",
     "release": "July 6, 2023",
     "director": "Hasto Broto",
@@ -453,11 +564,14 @@
     "cast": ["Asri Welas", "Tora Sudiro", "Michelle Ziudith"],
     "genres": ["drama"],
     "isShowing": false,
-    "showingMonth": "jul"
+    "showingMonth": "jul",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BODNiYWNkNWItMGNkNy00ODYyLWFiMDAtZmMwNDc4N2M2YTk4XkEyXkFqcGdeQXVyMTY2NTY4NTgw._V1_FMjpg_UX1000_.jpg",
     "title": "Tari Kematian",
+    "slug": "Tari-Kematian",
     "desc": "Kinara (Clarice Cutie), a class X high school student, dreams of becoming a skilled dancer like her mother. Meanwhile, her mother, Diah (Lilis Suganda), has been experiencing delusional disorders since her husband left. Diah does not support Kinara's decision to become a dancer. Moreover, Kinara is not good at dancing so she is often made fun of by her friends at the school dance studio. A strange incident occurred when he was on a study tour to an island. He learned an ancient dance that was forbidden because it was considered deadly. His return from the island made him a skilled dancer. However, this actually put the lives of his friends and loved ones at risk.",
     "release": "July 6, 2023",
     "director": "Bram Ferino",
@@ -465,11 +579,14 @@
     "cast": ["Arya Alfaiz", "Dewi Amanda", "Trisna Anggraini"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "jul"
+    "showingMonth": "jul",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYmFkZWZiZmUtODExYS00OWZlLTk3OTAtMTRhYzAyNDZlNTkxXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Jendela Seribu Sungai",
+    "slug": "Jendela-Seribu-Sungai",
     "desc": "Three children with stifled dreams meet a mentor who helps them overcome societal expectations and pursue their false passions.",
     "release": "July 20, 2023",
     "director": "Jay Sukmo",
@@ -477,11 +594,14 @@
     "cast": ["Bima Sena", "Halisa Naura", "Sheryl Drisanna Kuntadi"],
     "genres": ["adventure", "drama"],
     "isShowing": false,
-    "showingMonth": "jul"
+    "showingMonth": "jul",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BOWRjZDNjYzUtYjJjNi00M2JlLWEzNjctYTQwZTlmZTQxYWU5XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Kutukan Peti Mati",
+    "slug": "Kutukan-Peti-Mati",
     "desc": "Bramanto Putra, an archaeology student, found an ancient notebook on Onrust Island that had been buried for 300 years.",
     "release": "July 20, 2023",
     "director": "Irham Acho Bahtiar",
@@ -489,11 +609,14 @@
     "cast": ["Aliff Alli", "Yoriko Angeline", "Donny Damara"],
     "genres": ["mystery"],
     "isShowing": false,
-    "showingMonth": "jul"
+    "showingMonth": "jul",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZTNhODliMjUtNTM0ZC00MWZmLWI1MWYtM2EwYzBhMDRkNTc5XkEyXkFqcGdeQXVyNjk1NjI1NTU@._V1_FMjpg_UX1000_.jpg",
     "title": "Mantra Surugana",
+    "slug": "Mantra-Surugana",
     "desc": "The story revolves around a new female college student in a dormitory filled with mysterious occurrences due to the awakening of a demon through an incantation and curse that still holds a connection to her own past.",
     "release": "July 27, 2023",
     "director": "Dyan Sunu Prastowo",
@@ -501,11 +624,14 @@
     "cast": ["Sitha Marino", "Cindy Nirmala", "Rania Putri Sari"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "jul"
+    "showingMonth": "jul",
+    "basicPrice": 85000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZGNkYmY2NzItNTE1NS00NWEzLTk5ZDktOWU5YzdhOWRmNTkxXkEyXkFqcGdeQXVyNTg2MDI2Njc@._V1_FMjpg_UX1000_.jpg",
     "title": "Suzzanna: Malam Jumat Kliwon",
+    "slug": "Suzzanna:-Malam-Jumat-Kliwon",
     "desc": "Suzzanna was bewitched on a Kliwon Friday night. She came back for revenge, in the form of Sundel Bolong.",
     "release": "August 3, 2023",
     "director": "Guntur Soeharjanto",
@@ -513,11 +639,14 @@
     "cast": ["Luna Maya", "Achmad Megantara", "Tio Pakusadewo"],
     "genres": ["drama", "fantasy", "horror"],
     "isShowing": false,
-    "showingMonth": "aug"
+    "showingMonth": "aug",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMTBhN2JjZTQtNzUyOC00ZjM2LWFiMzItYmFkNmI1YjA4NzJmXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Primbon",
+    "slug": "Primbon",
     "desc": "Amidst a mountain climbing trip, Rana goes missing, but miraculously returns home, causing a conflict between her mother's belief in her survival and the superstitious extended family.",
     "release": "August 10, 2023",
     "director": "Rudy Soedjarwo",
@@ -525,11 +654,14 @@
     "cast": ["Happy Salma", "Nugie", "Flavio Zaviera"],
     "genres": ["drama", "horror"],
     "isShowing": false,
-    "showingMonth": "aug"
+    "showingMonth": "aug",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZmQ3NmZmM2EtNmRjNi00MmQxLWI1MWMtNzU5ZWE0ZmZkNmQ1XkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_FMjpg_UX1000_.jpg",
     "title": "Dear Jo: Almost is Never Enough",
+    "slug": "Dear-Jo:-Almost-is-Never-Enough",
     "desc": "After the tragic death of Maura, Ella and Joshua's lives are shattered as Ella carries Maura's child, navigating grief, parenthood, and unexpected challenges.",
     "release": "August 10, 2023",
     "director": "Lakonde",
@@ -537,11 +669,14 @@
     "cast": ["Jourdy Pranata", "Anggika Bolster", "liSalshabilla Adriani"],
     "genres": ["drama", "romance"],
     "isShowing": false,
-    "showingMonth": "aug"
+    "showingMonth": "aug",
+    "basicPrice": 60000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMWIxOTY1NTUtNDE2NC00ZGYzLTlkOWYtY2I4NjczYjFmZmY3XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Lantai 4",
+    "slug": "Lantai-4",
     "desc": "Jonathan's family moves into a haunted apartment after facing financial ruin, where they experience terrifying paranormal activities endangering their lives.",
     "release": "August 17, 2023",
     "director": "Wahyu Nugroho",
@@ -549,11 +684,14 @@
     "cast": ["Yuki Kato", "Tio Pakusadewo", "Ingrid Widjanarko"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "aug"
+    "showingMonth": "aug",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZjAxYzY2MjYtZjM0NC00YzViLWI1YjYtZDM3ODMyZWE1OTlmXkEyXkFqcGdeQXVyNjI3MDYxMjg@._V1_FMjpg_UX1000_.jpg",
     "title": "Catatan Si Boy",
+    "slug": "Catatan-Si-Boy",
     "desc": "Boy, a perfect student, faces heartbreak and confusion when his beloved girlfriend disappears, leading to a new romance that is threatened by the return of his ex-girlfriend.",
     "release": "August 17, 2023",
     "director": "Hanung Bramantyo",
@@ -561,11 +699,14 @@
     "cast": ["Angga Yunanda", "Syifa Hadju", "Alyssa Daguise"],
     "genres": ["drama", "romance"],
     "isShowing": false,
-    "showingMonth": "aug"
+    "showingMonth": "aug",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYTc2MzdiY2EtYWViNi00NjI3LTkyNmUtODY4ZTk4NzY4NzkyXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Orpa",
+    "slug": "Orpa",
     "desc": "A teenage girl with a tragic life is desperate to run away from her village to continue her education even though she has to go through the ferocity of the Papuan Jungle",
     "release": "September 7, 2023",
     "director": "Theo Rumansara",
@@ -573,11 +714,14 @@
     "cast": ["Orsila Murib", "Michael Kho", "Otiana Murib"],
     "genres": ["drama"],
     "isShowing": false,
-    "showingMonth": "nov"
+    "showingMonth": "nov",
+    "basicPrice": 80000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNTIxMDE2NGQtZmUwNy00ZjQwLThhNzQtYzhkMGZmNzBlOWRlXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Sleep Call",
+    "slug": "Sleep-Call",
     "desc": "Dina's escape from loneliness into an addictive 'sleep call' relationship turns deadly as unexplained deaths emerge.",
     "release": "September 7, 2023",
     "director": "Fajar Nugros",
@@ -585,11 +729,14 @@
     "cast": ["Laura Basuki", "Juan Bione Subiantoro", "Della Dartyan"],
     "genres": ["drama", "thriller"],
     "isShowing": false,
-    "showingMonth": "nov"
+    "showingMonth": "nov",
+    "basicPrice": 75000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNjhjZTliNWEtZGIzZi00M2ZmLThiNGYtMDlmY2RkNGYzNTUzXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Air Mata di Ujung Sajadah",
+    "slug": "Air-Mata-di-Ujung-Sajadah",
     "desc": "Aqilla discovers her long-lost son, Baskara, but faces a moral dilemma as he has been raised by another couple; a heartfelt struggle ensues.",
     "release": "September 7, 2023",
     "director": "Key Mangunsong",
@@ -597,11 +744,14 @@
     "cast": ["Titi Kamal", "Fedi Nuril", "Citra Kirana"],
     "genres": ["drama"],
     "isShowing": false,
-    "showingMonth": "nov"
+    "showingMonth": "nov",
+    "basicPrice": 80000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BM2JjYWQ2OTAtMGYxYS00YzUxLTkzOTYtYTllOTQ0ZWU1NmYwXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Jomblo Fi Sabilillah",
+    "slug": "Jomblo-Fi-Sabilillah",
     "desc": "Three friends with commitment issues help panic-stricken Ali, who's afraid of women, find love while navigating their own romantic struggles.",
     "release": "September 14, 2023",
     "director": "Jastis Arimba",
@@ -609,11 +759,14 @@
     "cast": ["Adhin Abdul Hakim", "Ricky Harun", "Mario Irwinsyah"],
     "genres": ["comedy", "drama"],
     "isShowing": false,
-    "showingMonth": "nov"
+    "showingMonth": "nov",
+    "basicPrice": 80000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMTM5MDQ3ZjktOWMxYi00MDNkLTkyNTctMmZhNjk4MWU3ZTA4XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_FMjpg_UX1000_.jpg",
     "title": "Aku Tahu Kapan Kamu Mati: Desa Bunuh Diri",
+    "slug": "Aku-Tahu-Kapan-Kamu-Mati:-Desa-Bunuh-Diri",
     "desc": "Siena and her friends uncover a mystery when deaths occur without warning, leading them to Remetuk Village and a dark curse.",
     "release": "September 14, 2023",
     "director": "Anggy Umbara",
@@ -621,11 +774,14 @@
     "cast": ["Natasha Wilona", "Acha Septriasa", "Marsha Aruan"],
     "genres": ["horror"],
     "isShowing": false,
-    "showingMonth": "nov"
+    "showingMonth": "nov",
+    "basicPrice": 65000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYjc3MjI4OGMtMzFjYi00ZTFhLWJhOWEtYWJiMmQ2MWZhMzMyXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Pamali: Dusun Pocong",
+    "slug": "Pamali:-Dusun-Pocong",
     "desc": "A gravedigger and students breaking a taboo by whistling at night face a horde of pocong apparitions.",
     "release": "October 12, 2023",
     "director": "Bobby Prasetyo",
@@ -633,11 +789,14 @@
     "cast": ["Fajar Nugra", "Yasamin Jasem", "Arla Ailani"],
     "genres": ["horror", "mystery"],
     "isShowing": false,
-    "showingMonth": "oct"
+    "showingMonth": "oct",
+    "basicPrice": 85000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNDhlZjNiM2QtZmY0Ni00NTI1LTg2NjYtZWU1MjczYzI5ZTY2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Bangku Kosong: Ujian Terakhir",
+    "slug": "Bangku-Kosong:-Ujian-Terakhir",
     "desc": "A peaceful school exam day turns into a nightmare when a terrifying dark force possesses and terrorizes high-achieving students, causing mass hysteria and death.",
     "release": "October 5, 2023",
     "director": "Lakonde",
@@ -645,11 +804,14 @@
     "cast": ["Karina Suwandhi", "Teddy Syah", "Lania Fira"],
     "genres": ["horror", "thriller"],
     "isShowing": false,
-    "showingMonth": "oct"
+    "showingMonth": "oct",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BOTVmOTQ3YTgtZmRkZC00YzBiLTg3NTgtN2JlMWUyZjM1ZWI5XkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Imam Tanpa Makmum",
+    "slug": "Imam-Tanpa-Makmum",
     "desc": "Imam falls in love with Naira, a violinist who owns a shelter for street children. Imam called her Humaira like the Prophet Muhammad's nickname for Siti Aisyah. Mamak disapproves of the relationship because Naira works at a nightclub.",
     "release": "October 19, 2023",
     "director": "Syakir Daulay",
@@ -657,11 +819,14 @@
     "cast": ["Syakir Daulay", "Vonny Felicia", "Cut Mini Theo"],
     "genres": ["comedy", "drama", "romance"],
     "isShowing": false,
-    "showingMonth": "oct"
+    "showingMonth": "oct",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMDIxZmE1OWEtZjYyNi00MjMyLWI1YzgtY2FlMWE0YjNiMTk0XkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_FMjpg_UX1000_.jpg",
     "title": "Saranjana: Kota Ghaib",
+    "slug": "Saranjana:-Kota-Ghaib",
     "desc": "When Shita, the lead singer of a major band goes missing, the band goes on a search, finding out that Shita is in Saranjana, a supernatural city, and to bring him back they must find a portal through an adventure of mystical events.",
     "release": "October 26, 2023",
     "director": "Johansyah Jumberan",
@@ -669,23 +834,29 @@
     "cast": ["Adinda Azani", "Luthfi Aulia", "Irzan Faiq"],
     "genres": ["adventure", "horror", "Sci-Fi"],
     "isShowing": false,
-    "showingMonth": "oct"
+    "showingMonth": "oct",
+    "basicPrice": 55000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNGE3NTU5YjktMDdlOC00ZjM2LWFkNmEtYThhYjQ4NDVhZTczXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Mohon Doa Restu",
-    "desc": "When Mel and Satya plans to get married. Three months before the wedding, Mel suddenly has a anxiety on whether he really wants Satya in his future.",
+    "slug": "Mohon-Doa-Restu",
+    "desc": "When Mel and Satya plans to get married. Three months before, the wedding, Mel suddenly has a anxiety on whether he really wants Satya in his future.",
     "release": "October 26, 2023",
     "director": "Ody C. Harahap",
     "duration": "1h 46m",
     "cast": ["Syifa Hadju", "Jefri Nichol", "Cut Mini Theo"],
     "genres": ["comedy", "drama", "family"],
     "isShowing": false,
-    "showingMonth": "oct"
+    "showingMonth": "oct",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMjQxZDU1ZmItYTQyMC00YzlkLThlNGItYzczNmFhMjcyNTMxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg",
     "title": "Nona Manis Sayange",
+    "slug": "Nona-Manis-Sayange",
     "desc": "Akram has to fight hard to fulfill Sika's father's expectations. She faced exorbitant dowry demands, demands that were difficult to meet.",
     "release": "November 2, 2023",
     "director": "Rengga Indrayana",
@@ -693,11 +864,14 @@
     "cast": ["Mathias Muchus", "Pangeran Lantang", "Bhisma Mulia"],
     "genres": ["drama", "romance"],
     "isShowing": true,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 85000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BNjUxZmViNWUtOGYwMC00MGM5LTg0YzAtNWNiODg3NzY5MGI3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Kultus Iblis",
+    "slug": "Kultus-Iblis",
     "desc": "A pair of twins come to a remote village to find out the cause of their father's strange death, but they end up trapped in a dangerous village full of terror.",
     "release": "November 2, 2023",
     "director": "Bobby Prasetyo",
@@ -705,11 +879,14 @@
     "cast": ["Yasamin Jasem", "Fadi Alaydrus", "Rukman Rosadi"],
     "genres": ["horror"],
     "isShowing": true,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 50000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BYWU2YjE0ZjctNmQ1Mi00NGVjLTlkNGEtNzJiMTYxNTE2NTdhXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Sijjin",
+    "slug": "Sijjin",
     "desc": "A young woman who uses black magic to threaten her cousin's wife.",
     "release": "November 9, 2023",
     "director": "Hadrah Daeng Ratu",
@@ -717,11 +894,14 @@
     "cast": ["Ibrahim Risyad", "Anggika Bolsterli", "Messi Gusti"],
     "genres": ["horror", "thriller"],
     "isShowing": true,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 60000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BZjIwY2ZkODgtZTRiNi00OTU0LTg2ZTEtNGQ0YTBmNjUzMjBlXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     "title": "Gampang Cuan",
+    "slug": "Gampang-Cuan",
     "desc": "The brothers' struggle to find money to save the family from debt, without the mother's knowledge.",
     "release": "November 16, 2023",
     "director": "Rahabi Mandra",
@@ -729,11 +909,14 @@
     "cast": ["Vino G. Bastian", "Anya Geraldine", "Alzi Markers"],
     "genres": ["comedy", "drama"],
     "isShowing": true,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 70000
+
   },
   {
     "poster": "https://m.media-amazon.com/images/M/MV5BMmFiMzhiOGQtODk4MS00YmVmLTk0NmItNDAyNDY3NDg3NGIwXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
     "title": "Budi Pekerti",
+    "slug": "Budi-Pekerti",
     "desc": "After a viral altercation, Prani, a guidance counselor, faces backlash endangering her career and family.",
     "release": "November 2, 2023",
     "director": "Wregas Bhanuteja",
@@ -741,6 +924,8 @@
     "cast": ["Sha Ine Febriyanti", "Angga Yunanda", "Prilly Latuconsina"],
     "genres": ["drama"],
     "isShowing": true,
-    "showingMonth": "des"
+    "showingMonth": "des",
+    "basicPrice": 80000
+
   }
 ]

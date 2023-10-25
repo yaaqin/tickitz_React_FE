@@ -191,3 +191,7 @@ a {
 .capitalize {
   text-transform: capitalize;
 }
+
+#upcoming h2 {
+  color: #603cc4;
+}

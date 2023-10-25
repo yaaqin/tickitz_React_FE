@@ -62,10 +62,10 @@ function Footer() {
           <div className="col-md-3 col-xs-12">
             <h6 className="mb-4 pt-4 footerFollow">Follow Us</h6>
 
-            <SosmedIcon icon="../tickitz_image/icon_sosmed/eva_facebook-outline.svg" name="Tickitz Cinema id"/>
-            <SosmedIcon icon="../tickitz_image/icon_sosmed/feather_youtube.svg" name="Tickitz Cinema id"/>
             <SosmedIcon icon="../tickitz_image/icon_sosmed/Vector.svg" name="tickitz.id"/>
             <SosmedIcon icon="../tickitz_image/icon_sosmed/bx_bxl-instagram.svg" name="tickitz.id"/>
+            <SosmedIcon icon="../tickitz_image/icon_sosmed/eva_facebook-outline.svg" name="Tickitz Cinema id"/>
+            <SosmedIcon icon="../tickitz_image/icon_sosmed/feather_youtube.svg" name="Tickitz Cinema id"/>
             
           </div>
         </div>

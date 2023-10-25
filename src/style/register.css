@@ -1,0 +1,54 @@
+#register {
+    width: 100%;
+    overflow: hidden;
+}
+
+.contentLeft {
+    height: 100vh;
+    background-color: rgb(245, 37, 37);
+    border: 1px solid   black;
+    background: url('/public/tickitz_image/loginRegister/Group\ 10.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentLeft img {
+    height: 190px;
+}
+
+.contentLeft span {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.contentRight {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contentRight button {
+    height: 64px;
+    width: 100%;
+    background-color: #5F2EEA !important;
+}
+
+.contentRight button:hover {
+    scale: 1.04;
+}
+
+.loginLink {
+    color: #5F2EEA;
+    cursor: pointer;
+}
+
+.grayColor {
+    color: gray;
+}

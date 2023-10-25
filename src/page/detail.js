@@ -13,9 +13,9 @@ export default function detail() {
     <div>
         <div className='container pt-4'>
             <Nav />
-        </div>
 
        <BodyDetail />
+        </div>
         
       < Footer />
         

@@ -57,8 +57,8 @@ function BodyDetail() {
               </div>
             </div>
             <div className="col-md-8 col-xs-12 poster2">
-              <h1 className="detailTitle">{DetailMovie.title}</h1>
-              <h4 className="detailTitle">
+              <h2 className="detailTitle">{DetailMovie.title}</h2>
+              <h4 className="detailTitle capital">
                 {DetailMovie.genres.map((item, key) => (
                   <span>
                     {DetailMovie.genres.length - 1 === key ? item : `${item}, `}
