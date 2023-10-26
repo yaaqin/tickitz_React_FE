@@ -8,6 +8,7 @@ import "../style/bodyDetail.mobile.css";
 import { useParams } from "react-router-dom";
 
 function BodyDetail() {
+  
   const { id } = useParams();
 
   const [DetailMovie, setDetailMovie] = React.useState(null);
@@ -43,7 +44,7 @@ function BodyDetail() {
           <p className="text-center mt-2">Loading...</p>
         </>
       ) : null}
-      ;{/* loading end*/}
+      {/* loading end*/}
       {DetailMovie !== null ? (
         <section id="detailBody" className="mt-5">
           <div className="row">
@@ -74,7 +75,9 @@ function BodyDetail() {
                   <h6 className="detailTitle">{DetailMovie.duration}</h6>
                 </div>
                 <div className="col-md-8 col-xs-12">
-                  <h6 className="text-muted detailTitle detailDirected">Directed by</h6>
+                  <h6 className="text-muted detailTitle detailDirected">
+                    Directed by
+                  </h6>
                   <h6 className="detailTitle">{DetailMovie.director}</h6>
                   <h6 className="mt-4 text-muted detailTitle">Cast</h6>
                   <h6 className="detailTitle">
