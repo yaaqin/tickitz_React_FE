@@ -8,7 +8,9 @@ function Login() {
   return (
     <div className="row" id="register">
       <div className="col-md-8 col-xs-0 contentLeft">
-        <img src="/tickitz_image/loginRegister/whiteLogo.png" alt="logo"></img>
+        <Link to={"/"}>
+          <img src="/tickitz_image/loginRegister/whiteLogo.png" alt="logo"></img>
+        </Link>
         <span>wait, watch, wow!</span>
       </div>
       <div className="col-md-4 col-xs-12 contentRight">
