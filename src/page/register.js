@@ -3,19 +3,46 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../style/register.css";
+import axios from "axios";
 
 function Register() {
-//var register component
+  //var register component
   const [fullname, setFullname] = React.useState("");
   const [phoneNumber, setPhoneNumber] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
 
+  const [isLoading, setIsLoading] = React.useState(false);
+
+  const handleRegister = () => {
+    setIsLoading(true);
+
+    axios
+      .post("https://tickitz-be.onrender.com//yaqin/auth/register", {
+        email: email,
+        password: password,
+        fullname: fullname,
+        phone_number: phoneNumber,
+      })
+      .then(() => {
+        console.log("success");
+      })
+      .catch(() => {
+        console.log("failed");
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  };
+
   return (
     <div className="row" id="register">
       <div className="col-md-8 col-xs-0 contentLeft">
         <Link to={"/"}>
-          <img src="/tickitz_image/loginRegister/whiteLogo.png" alt="logo"></img>
+          <img
+            src="/tickitz_image/loginRegister/whiteLogo.png"
+            alt="logo"
+          ></img>
         </Link>
         <span>wait, watch, wow!</span>
       </div>
@@ -30,6 +57,9 @@ function Register() {
             placeholder="Full Name"
             aria-label="Username"
             aria-describedby="addon-wrapping"
+            onChange={(event) => {
+              setFullname(event.target.value);
+            }}
           />
         </div>
         <h6 className="mt-2">Phone Number</h6>
@@ -40,6 +70,9 @@ function Register() {
             placeholder="Phone Number"
             aria-label="Username"
             aria-describedby="addon-wrapping"
+            onChange={(event) => {
+              setPhoneNumber(event.target.value);
+            }}
           />
         </div>
         <h6 className="mt-2">Email</h6>
@@ -50,6 +83,9 @@ function Register() {
             placeholder="Email"
             aria-label="Username"
             aria-describedby="addon-wrapping"
+            onChange={(event) => {
+              setEmail(event.target.value);
+            }}
           />
         </div>
         <h6 className="mt-2">Password</h6>
@@ -60,9 +96,18 @@ function Register() {
             placeholder="Password"
             aria-label="Username"
             aria-describedby="addon-wrapping"
+            onChange={(event) => {
+              setPassword(event.target.value);
+            }}
           />
         </div>
-        <button className="btn btn-primary mt-3 mb-3">Sign Up</button>
+        <button
+          className="btn btn-primary mt-3 mb-3"
+          onClick={handleRegister}
+          disabled={isLoading}
+        >
+          {isLoading ? "Loading..." : "Sign Up"}
+        </button>
         <p className="text-center">
           Already have account ?{" "}
           <Link to={"/login"}>
