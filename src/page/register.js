@@ -12,27 +12,39 @@ function Register() {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
 
+  const [isSuccess, setIsSuccess] = React.useState(false);
+  const [errMsg, setErrMsg] = React.useState(null);
+
   const [isLoading, setIsLoading] = React.useState(false);
 
-  const handleRegister = () => {
+  const handleRegister = async () => {
     setIsLoading(true);
 
     axios
-      .post("https://tickitz-be.onrender.com//yaqin/auth/register", {
+      .post("https://tickitz-be.onrender.com/yaqin/auth/register", {
         email: email,
         password: password,
         fullname: fullname,
         phone_number: phoneNumber,
       })
-      .then(() => {
-        console.log("success");
+      .then((respon) => {
+        setIsSuccess(true);
+        console.log(respon);
+        console.log(fullname);
+        console.log(phoneNumber);
+        console.log(password);
+        console.log(email);
       })
-      .catch(() => {
-        console.log("failed");
+      .catch((error) => {
+        setIsSuccess(false);
+        setErrMsg("Something wrong in your app");
+        console.log(errMsg);
+        console.log(error);
       })
       .finally(() => {
         setIsLoading(false);
       });
+
   };
 
   return (
