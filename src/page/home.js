@@ -32,19 +32,19 @@ function Home() {
         "https://tickitz-be.onrender.com/yaqin/movie/now-showing"
       );
 
-      if(nowShowing.status === 200) {
-        setResultNowShowing(nowShowing.data.data)
+      if (nowShowing.status === 200) {
+        setResultNowShowing(nowShowing.data.data);
       }
 
       const upComing = await axios.get(
         "https://tickitz-be.onrender.com/yaqin/movie/upcoming"
       );
 
-      if(upComing.status === 200) {
-        setResultUpcoming(upComing.data.data)
+      if (upComing.status === 200) {
+        setResultUpcoming(upComing.data.data);
       }
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
   };
 
@@ -86,6 +86,7 @@ function Home() {
                 title={item.title}
                 genres={item.genres}
                 desc={item.desc}
+                slug={item.slug}
               />
             ))}
           </div>
@@ -148,12 +149,13 @@ function Home() {
                   title={item.title}
                   genres={item.genres}
                   desc={item.desc}
+                  slug={item.slug}
                 />
               ))}
 
             {/* Movie not Found*/}
-            {resultUpcoming
-              .filter((item) => item.showingMonth === slcMonth).length === 0 ? (
+            {resultUpcoming.filter((item) => item.showingMonth === slcMonth)
+              .length === 0 ? (
               <span className="text-center mt-5">
                 Movie not found <br />
                 Please Select any Month
