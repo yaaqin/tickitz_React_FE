@@ -8,8 +8,7 @@ import "../style/bodyDetail.mobile.css";
 import { useParams } from "react-router-dom";
 
 function BodyDetail() {
-  
-  const { id } = useParams();
+  const { id, slug } = useParams();
 
   const [DetailMovie, setDetailMovie] = React.useState(null);
 
@@ -17,20 +16,16 @@ function BodyDetail() {
 
   React.useEffect(() => {
     axios
-      .get("http://localhost:3000/api/movie.json")
+      .get(`https://tickitz-be.onrender.com/yaqin/movie/detail/${id}`)
       .then((response) => {
-        console.log(`success :`);
-        if (response.status === 200) {
-          // find data === id
-          setDetailMovie(
-            response.data.find(
-              (item) => item.title.toLowerCase().split(" ").join("-") === id
-            )
+        if(response.data.data.length > 0) {
+          setDetailMovie(response.data.data[0])
+          console.log(
+            DetailMovie
           );
-          console.log(DetailMovie);
         }
       })
-      .catch((error) => console.log(`error : ${error}`));
+      .catch((error) => console.log(`erornya adalah ${error}`));
   }, []);
 
   return (
