@@ -11,6 +11,9 @@ import Navigasi from "../component/navBar";
 function Home() {
   //mounted / mounting
 
+  const [resultNowShowing, setResultNowShowing] = React.useState([]);
+  const [resultUpcoming, setResultUpcoming] = React.useState([]);
+
   const date = new Date();
   const Month = date
     .toLocaleDateString("default", { month: "short" })
@@ -23,16 +26,38 @@ function Home() {
   console.log(slcMonth);
 
   //lifeCycle
+  const handleGetResponse = async () => {
+    try {
+      const nowShowing = await axios.get(
+        "https://tickitz-be.onrender.com/yaqin/movie/now-showing"
+      );
+
+      if(nowShowing.status === 200) {
+        setResultNowShowing(nowShowing.data.data)
+      }
+
+      const upComing = await axios.get(
+        "https://tickitz-be.onrender.com/yaqin/movie/upcoming"
+      );
+
+      if(upComing.status === 200) {
+        setResultUpcoming(upComing.data.data)
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  };
+
+  // .then((response) => {
+  //   console.log(`success :`);
+  //   if (response.status === 200) {
+  //     setResultNowShowing(response.data.data);
+  //   }
+  // })
+  // .catch((error) => console.log(`error : ${error}`));
+
   React.useEffect(() => {
-    axios
-      .get("http://localhost:3000/api/movie.json")
-      .then((response) => {
-        console.log(`success :`);
-        if (response.status === 200) {
-          setResult(response.data);
-        }
-      })
-      .catch((error) => console.log(`error : ${error}`));
+    handleGetResponse();
   }, []);
 
   return (
@@ -55,17 +80,14 @@ function Home() {
             className="d-flex mt-md-5 mt-xs-4 contentNowShowing"
             id="nowShowingContent"
           >
-            {result
-              .filter((item) => item.isShowing)
-              .slice(0, 5)
-              .map((item) => (
-                <MovieComp
-                  poster={item.poster}
-                  title={item.title}
-                  genres={item.genres}
-                  desc={item.desc}
-                />
-              ))}
+            {resultNowShowing.slice(0, 5).map((item) => (
+              <MovieComp
+                poster={item.poster}
+                title={item.title}
+                genres={item.genres}
+                desc={item.desc}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -117,8 +139,7 @@ function Home() {
             className="d-flex mt-5 listBannerUpcoming"
             id="nowShowingContent"
           >
-            {result
-              .filter((item) => !item.isShowing)
+            {resultUpcoming
               .filter((item) => item.showingMonth === slcMonth)
               .slice(0, 5)
               .map((item) => (
@@ -131,8 +152,7 @@ function Home() {
               ))}
 
             {/* Movie not Found*/}
-            {result
-              .filter((item) => !item.isShowing)
+            {resultUpcoming
               .filter((item) => item.showingMonth === slcMonth).length === 0 ? (
               <span className="text-center mt-5">
                 Movie not found <br />

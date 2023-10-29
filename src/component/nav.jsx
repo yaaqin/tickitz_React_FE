@@ -6,6 +6,10 @@ import "../style/App.mobile.css";
 import { Link } from "react-router-dom";
 
 function Nav() {
+  const [profile, setProfile] = React.useState(
+    JSON.parse(localStorage.getItem("profile"))
+  );
+
   return (
     <nav className="d-flex justify-content-between align-item-center">
       <div className="d-flex align-item-center gap-5">
@@ -21,9 +25,22 @@ function Nav() {
           List Movie
         </a>
       </div>
-      <Link to={"/register"}>
-        <button className="btn btn-primary d-mobile signUpBtn">Sign Up</button>
-      </Link>
+
+      {profile ? (
+        <img
+          src={profile?.photo}
+          width="50px"
+          height="50px"
+          style={{ background: "gray", borderRadius: "50%" }}
+          alt="logo"
+        ></img>
+      ) : (
+        <Link to={"/register"}>
+          <button className="btn btn-primary d-mobile signUpBtn">
+            Sign Up
+          </button>
+        </Link>
+      )}
 
       {/* <!--hamburger button start--> */}
       <label

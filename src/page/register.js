@@ -1,11 +1,14 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "../style/register.css";
 import axios from "axios";
 
 function Register() {
+  const navigate = useNavigate();
+
+
   //var register component
   const [fullname, setFullname] = React.useState("");
   const [phoneNumber, setPhoneNumber] = React.useState("");
@@ -13,9 +16,15 @@ function Register() {
   const [password, setPassword] = React.useState("");
 
   const [isSuccess, setIsSuccess] = React.useState(false);
-  const [errMsg, setErrMsg] = React.useState(null);
+  const [errMsg, setErrMsg] = React.useState("");
 
   const [isLoading, setIsLoading] = React.useState(false);
+
+  React.useEffect(() => {
+    if (localStorage.getItem("token") && localStorage.getItem("profile")) {
+      navigate("/");
+    }
+  });
 
   const handleRegister = async () => {
     setIsLoading(true);
@@ -29,22 +38,32 @@ function Register() {
       })
       .then((respon) => {
         setIsSuccess(true);
-        console.log(respon);
-        console.log(fullname);
-        console.log(phoneNumber);
-        console.log(password);
-        console.log(email);
+        // console.log(respon);
+        // console.log(fullname);
+        // console.log(phoneNumber);
+        // console.log(password);
+        // console.log(email);
       })
       .catch((error) => {
+        const errPassword = error?.response?.data?.messages?.password?.message;
+        const errFullname = error?.response?.data?.messages?.fullname?.message;
+        const errPhoneNumber =
+          error?.response?.data?.messages?.phone_number?.message;
+        const errEmail = error?.response?.data?.messages?.email?.message;
+
         setIsSuccess(false);
-        setErrMsg("Something wrong in your app");
+        setErrMsg(
+          errFullname ??
+            errPhoneNumber ??
+            errEmail ??
+            errPassword ??
+            "Something wrong in ur App"
+        );
         console.log(errMsg);
-        console.log(error);
       })
       .finally(() => {
         setIsLoading(false);
       });
-
   };
 
   return (
@@ -60,7 +79,20 @@ function Register() {
       </div>
       <div className="col-md-4 col-xs-12 contentRight">
         <h2>Sign Up</h2>
-        <span className="grayColor">Fill your additional details</span>
+        <p className="grayColor mb-3">Fill your additional details</p>
+
+        {isSuccess ? (
+          <div className="alert alert-success" role="alert">
+          Register Account success. please check your Email
+        </div>
+          ) : null}
+        
+        {errMsg ? (
+          <div className="alert alert-danger" role="alert">
+          {errMsg}
+        </div>
+          ) : null} 
+
         <h6 className="mt-4">Full Name</h6>
         <div class="input-group flex-nowrap">
           <input
