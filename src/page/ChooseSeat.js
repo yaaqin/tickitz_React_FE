@@ -210,7 +210,7 @@ function ChooseSeat() {
         `https://tickitz-be.onrender.com/yaqin/ticket/seat`,
         {
           movieSlug: id,
-          cinemaId: cinemaId, // 1, 3, 3
+          cinemaId: cinemaId, 
           seat: selectedSeat,
           startMovie: completeDate,
         },

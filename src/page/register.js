@@ -73,9 +73,10 @@ function Register() {
           <img
             src="/tickitz_image/loginRegister/whiteLogo.png"
             alt="logo"
+            className="whiteLogo shadowFilter"
           ></img>
         </Link>
-        <span>wait, watch, wow!</span>
+        <span className="shadowFilter">wait, watch, wow!</span>
       </div>
       <div className="col-md-4 col-xs-12 contentRight">
         <h2>Sign Up</h2>

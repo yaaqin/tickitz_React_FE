@@ -44,6 +44,14 @@
     scale: 1.04;
 }
 
+.whiteLogo:hover {
+    scale: 1.06;
+}
+
+.shadowFilter {
+    filter: drop-shadow(10px 8px 6px rgb(0, 0, 0));
+}
+
 .loginLink {
     color: #5F2EEA;
     cursor: pointer;
