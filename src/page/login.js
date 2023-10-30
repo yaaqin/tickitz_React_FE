@@ -122,7 +122,7 @@ function Login() {
           disabled={isLoading}
         >
           {" "}
-          {isLoading ? "Loading..." : "Sign Up"}
+          {isLoading ? "Loading..." : "Sign In"}
         </button>
         <p className="text-center">
           Forgot your password?
@@ -133,7 +133,7 @@ function Login() {
         <p className="text-center">
           Don’t have an account?
           <Link to={"/register"}>
-            <span className="loginLink"> Sign In</span>
+            <span className="loginLink"> Sign Up</span>
           </Link>
         </p>
       </div>

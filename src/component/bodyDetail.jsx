@@ -114,7 +114,7 @@ const navigate = useNavigate()
                 <hr className="mt-4 mb-4 ml-5 mr-5" />
 
                 <h4 className="detailTitle">Synopsis</h4>
-                <div className="d-flex justify-content-center ">
+                <div className="d-flex ">
                   <span className="detailSynopsis">{DetailMovie.desc}</span>
                 </div>
               </div>
