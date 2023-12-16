@@ -1,3 +1,15 @@
+# Tickitz
+
+## Website pemesanan tiket bioskop
+
+Tickitz, pintu gerbang magis menuju petualangan sinematik tanpa batas! Tickitz tidak sekadar sebuah platform, tetapi adalah rumah bagi pecinta film yang haus akan pengalaman sinema penuh warna. Dengan desain yang modern dan antarmuka yang ramah pengguna, Tickitz memanjakan Anda dengan kemudahan dalam menemukan, melihat, dan memesan tiket bioskop terlengkap.
+
+Navigasinya yang intuitif memungkinkan Anda menjelajahi dunia film dengan cepat. Apakah Anda mencari film blockbuster terbaru, drama yang menyentuh hati, atau petualangan animasi untuk seluruh keluarga, Tickitz menyajikan katalog film yang lengkap, lengkap dengan ulasan pengguna yang memberikan pandangan berharga.
+
+Fitur pencarian canggih memastikan Anda dapat menemukan film-film favorit Anda di bioskop terdekat atau menemukan pemutaran khusus yang tak boleh Anda lewatkan. Dengan sistem pemesanan yang mudah digunakan, Anda dapat memilih tempat duduk favorit Anda dan memastikan pengalaman nonton yang tanpa hambatan.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
