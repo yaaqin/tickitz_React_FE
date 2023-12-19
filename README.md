@@ -1,5 +1,7 @@
 # Tickitz
 
+![logo](doc/pict/logo-purple.png)
+
 ## Website pemesanan tiket bioskop
 
 Tickitz, pintu gerbang magis menuju petualangan sinematik tanpa batas! Tickitz tidak sekadar sebuah platform, tetapi adalah rumah bagi pecinta film yang haus akan pengalaman sinema penuh warna. Dengan desain yang modern dan antarmuka yang ramah pengguna, Tickitz memanjakan Anda dengan kemudahan dalam menemukan, melihat, dan memesan tiket bioskop terlengkap.
