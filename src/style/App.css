@@ -195,3 +195,12 @@ a {
 #upcoming h2 {
   color: #603cc4;
 }
+
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navButton {
+  padding: 10px;
+  border-radius: 20px;
+}

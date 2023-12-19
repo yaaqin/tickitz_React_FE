@@ -18,19 +18,20 @@ function Nav() {
           alt="logo"
           className="mainLogo"
         />
-        <Link to={"/"} className="d-mobile mt-3 hoverScale" href="/">
+        <Link to={"/"} className="d-mobile navButton mt-3 hoverScale boxShadow" href="/">
           Home
         </Link>
-        <a className="d-mobile mt-3" href="/">
+        <a className="d-mobile mt-3 navButton hoverScale boxShadow" href="/">
           List Movie
         </a>
       </div>
 
       {profile ? (
         <img
-          src={profile?.photo}
+          src={"https://i.pinimg.com/564x/34/40/26/34402696f8c1e6041d4031da15eca2d1.jpg"}
           width="50px"
           height="50px"
+          className="boxShadow"
           style={{ background: "gray", borderRadius: "50%" }}
           alt="logo"
         ></img>
