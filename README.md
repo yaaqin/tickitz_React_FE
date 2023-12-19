@@ -12,6 +12,20 @@ Navigasinya yang intuitif memungkinkan Anda menjelajahi dunia film dengan cepat.
 
 Fitur pencarian canggih memastikan Anda dapat menemukan film-film favorit Anda di bioskop terdekat atau menemukan pemutaran khusus yang tak boleh Anda lewatkan. Dengan sistem pemesanan yang mudah digunakan, Anda dapat memilih tempat duduk favorit Anda dan memastikan pengalaman nonton yang tanpa hambatan.
 
+## Fitur Utama
+- Pemesanan tiket untuk film-film terkini.
+- Pilihan kursi yang nyaman.
+- Informasi tentang film dan jadwal pemutaran.
+- Riwayat pemesanan untuk pengguna terdaftar.
+- Integrasi dengan sistem pembayaran online.
+
+## Teknologi yang Digunakan
+- React JS
+- React Router
+- Axios untuk HTTP requests
+- CSS dan Bootstrap untuk styling
+
+## Struktur Proyek
 
 
 # Getting Started with Create React App
