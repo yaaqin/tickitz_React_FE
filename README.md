@@ -1,8 +1,8 @@
 # Tickitz
 
-![logo](doc/pict/logo-purple.png)
+![logo](docs/Tickitz 1.png)
 
-![alt text](doc/pict/logo-purple.png?raw=true)
+![alt text](docs/Tickitz 1.png?raw=true)
 
 ## Website pemesanan tiket bioskop
 
