@@ -2,7 +2,7 @@
 
 ![logo](docs/Tickitz 1.png)
 
-![alt text](docs/Tickitz 1.png?raw=true)
+![alt text]([docs/Tickitz 1.png](https://github.com/yaaqin/tickitz_React_FE/blob/master/docs/Tickitz%201.png)?raw=true)
 
 ## Website pemesanan tiket bioskop
 
