@@ -1,8 +1,8 @@
 # Tickitz
 
-![logo](docs/Tickitz 1.png)
-
-![alt text]([docs/Tickitz 1.png](https://github.com/yaaqin/tickitz_React_FE/blob/master/docs/Tickitz%201.png)?raw=true)
+<p align='center'>
+<img width="500" src="https://github.com/yaaqin/Assets/blob/main/Readme/Tickitz/tikitz.png" />
+</p>
 
 ## Website pemesanan tiket bioskop
 
