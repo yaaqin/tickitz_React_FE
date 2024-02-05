@@ -29,7 +29,7 @@ function Home() {
   const handleGetResponse = async () => {
     try {
       const nowShowing = await axios.get(
-        "https://tickitz-be.onrender.com/yaqin/movie/now-showing"
+        "https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/now-showing"
       );
 
       if (nowShowing.status === 200) {
@@ -37,7 +37,7 @@ function Home() {
       }
 
       const upComing = await axios.get(
-        "https://tickitz-be.onrender.com/yaqin/movie/upcoming"
+        "https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/upcoming"
       );
 
       if (upComing.status === 200) {

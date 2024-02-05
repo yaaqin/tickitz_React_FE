@@ -14,7 +14,7 @@ function navigasi() {
 
     {/* <!--Navbar mobile start--> */}
     <div className="mobileNav">
-      <section className="navMbl" id="navbarMobile">
+      <section className="navMbl" id="navbarMobile"> 
         <div className="d-flex justify-content-center hoverScale boxShadow">
           <a className=" mt-3" href="/">
             Home

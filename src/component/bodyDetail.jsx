@@ -26,7 +26,7 @@ const navigate = useNavigate()
       //req detail cinema
 
       const requestDetail = await axios.get(
-        `https://tickitz-be.onrender.com/yaqin/movie/detail/${id}`
+        `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/detail/${id}`
       );
 
       if (requestDetail.data.data.length > 0) {
@@ -37,7 +37,7 @@ const navigate = useNavigate()
       //req detail cinemas
 
       const requestCinemas = await axios.get(
-        `https://tickitz-be.onrender.com/yaqin/movie/${id}/cinemas`
+        `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/${id}/cinemas`
       );
       if (requestCinemas.data.data.length > 0) {
         setListCinemas(requestCinemas.data.data);
@@ -78,8 +78,8 @@ const navigate = useNavigate()
               </div>
             </div>
             <div className="col-md-8 col-xs-12 poster2">
-              <h2 className="detailTitle">{DetailMovie.title}</h2>
-              <h4 className="detailTitle capital">
+              <h2 className="detailTitle1">{DetailMovie.title}</h2>
+              <h4 className="detailTitle2 capital">
                 {DetailMovie.genres.map((item, key) => (
                   <span>
                     {DetailMovie.genres.length - 1 === key ? item : `${item}, `}

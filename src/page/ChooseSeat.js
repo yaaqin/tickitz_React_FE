@@ -185,7 +185,7 @@ function ChooseSeat() {
     try {
       const formatDate = moment(dateMovie).format("dddd, DD MMMM YYYY");
       const requestSeat = await axios.post(
-        `https://tickitz-be.onrender.com/yaqin/movie/${id}/seat`,
+        `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/${id}/seat`,
         {
           startMovie: `${formatDate} at ${timeMovie}`,
           cinemaId: cinemaId,
@@ -207,7 +207,7 @@ function ChooseSeat() {
       const formatDate = moment(dateMovie).format("dddd, DD MMMM YYYY");
       const completeDate = `${formatDate} at ${timeMovie}`;
       const requestBooking = await axios.post(
-        `https://tickitz-be.onrender.com/yaqin/ticket/seat`,
+        `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/ticket/seat`,
         {
           movieSlug: id,
           cinemaId: cinemaId, 
@@ -223,7 +223,7 @@ function ChooseSeat() {
 
       if (requestBooking.data.data.paymentId) {
         const requestPayment = await axios.patch(
-          `https://tickitz-be.onrender.com/yaqin/ticket/purchase/${requestBooking.data.data.paymentId}`,
+          `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/ticket/purchase/${requestBooking.data.data.paymentId}`,
           {},
           {
             headers: {

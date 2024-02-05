@@ -30,7 +30,7 @@ function Register() {
     setIsLoading(true);
 
     axios
-      .post("https://tickitz-be.onrender.com/yaqin/auth/register", {
+      .post("https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/auth/register", {
         email: email,
         password: password,
         fullname: fullname,
