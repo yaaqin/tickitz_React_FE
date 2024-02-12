@@ -25,7 +25,7 @@ function Nav() {
         >
           Home
         </Link>
-        <a className="d-mobile mt-3 navButton hoverScale boxShadow" href="/">
+        <a className="d-mobile mt-3 navButton hoverScale boxShadow" href="/movie">
           List Movie
         </a>
       </div>

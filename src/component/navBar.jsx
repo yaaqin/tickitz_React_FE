@@ -1,59 +1,38 @@
-import React from 'react'
+import React from "react";
 import "../style/App.css";
 
-import Nav from './nav';
+import { Link } from "react-router-dom";
 
-function navigasi() {
+export default function navBar() {
   return (
-    // {/* <!--start header--> */}
-    <header className="container pt-4">
-        <Nav />
-    {/* <!--checkbox for navbar start--> */}
-    <input type="checkbox" name="" id="checkboxForNavMobile"></input>
-    {/* <!--checkbox for navbar end--> */}
-
-    {/* <!--Navbar mobile start--> */}
-    <div className="mobileNav">
-      <section className="navMbl" id="navbarMobile"> 
-        <div className="d-flex justify-content-center hoverScale boxShadow">
-          <a className=" mt-3" href="/">
-            Home
-          </a>
-        </div>
-        <div className="d-flex justify-content-center hoverScale boxShadow">
-          <a className=" mt-3" href="/">
-            List Movie
-          </a>
-        </div>
-        <div className=" mt-3 d-flex justify-content-center hoverScale signBtn">
-          <a className="signBtnText" href="/#">
-            Sign Up
-          </a>
-        </div>
+    <>
+      <section className="fixed-top ">
+        <nav className="d-flex bg-white justify-content-between py-2 px-5 ">
+          <div className="d-flex gap-5 align-items-center">
+            <img
+              src="../tickitz_image/logo/Tickitz 1.png"
+              className="mr-5"
+            ></img>
+            <div></div>
+            <ul className="d-flex align-items-center list-unstyled gap-4 mt-4 fs-6">
+              <Link to={"/"}>
+                <li className="boxShadow py-2 px-4 rounded-pill hover">Home</li>
+              </Link>
+              <Link to={"/movie"}>
+                <li className="boxShadow py-2 px-4 rounded-pill hover">
+                  All Movie
+                </li>
+              </Link>
+            </ul>
+          </div>
+          <div className="d-flex align-items-center">
+            <button className="rounded-pill py-2 btn btn-primary border-0 px-4 hover">
+              Sign up
+            </button>
+          </div>
+        </nav>
+        <hr></hr>
       </section>
-    </div>
-    {/* <!--Navbar mobile end--> */}
-    {/* <!--content start--> */}
-    <section className="mt-md-10">
-      <div className="row">
-        <div className="col-md-6 col-xs-12 pt-title-10 text-center">
-          <span className="text-muted">Nearest Cinema, Newest Movie,</span>
-          <h1 className="text-primary">Find out now!</h1>
-        </div>
-        <div className="col-md-6 col-xs-12">
-          <img
-            className="bannerFilm"
-            src="/tickitz_image/etc/Group 14.png"
-            alt="banner"
-          />
-        </div>
-      </div>
-    </section>
-    {/* <!--content end--> */}
-  </header>
-//   {/* <!--end header--> */}
-  )
+    </>
+  );
 }
-
-
-export default navigasi;

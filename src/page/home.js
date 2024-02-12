@@ -63,6 +63,23 @@ function Home() {
   return (
     <div>
       <Navigasi />
+          {/* <!--content start--> */}
+    <section className="mt-15">
+      <div className="row">
+        <div className="col-md-6 col-xs-12 pt-title-10 text-center">
+          <span className="text-muted">Nearest Cinema, Newest Movie,</span>
+          <h1 className="text-primary">Find out now!</h1>
+        </div>
+        <div className="col-md-6 col-xs-12">
+          <img
+            className="bannerFilm"
+            src="/tickitz_image/etc/Group 14.png"
+            alt="banner"
+          />
+        </div>
+      </div>
+    </section>
+    {/* <!--content end--> */}
 
       {/* <!--now showing start--> */}
       <section id="now-showing">
@@ -99,7 +116,7 @@ function Home() {
           {/* <!--header title--> */}
           <div className="d-flex justify-content-between align-item-center">
             <h2>Upcoming Movies</h2>
-            <a className="text-primary mt-md-3 mt-xs-2" href="/#">
+            <a className="mt-md-3 btn mt-xs-2 rounded-pill py-1 border-0 px-3 hover" href="/movie">
               View All
             </a>
           </div>

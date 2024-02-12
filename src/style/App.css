@@ -196,6 +196,10 @@ a {
   color: #603cc4;
 }
 
+hr {
+  margin-top: 0;
+}
+
 .boxShadow {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -203,4 +207,23 @@ a {
 .navButton {
   padding: 10px;
   border-radius: 20px;
+}
+
+.hover {
+  transition-duration: 300ms;
+}
+.hover:hover{
+  scale: 1.1;
+}
+
+.mt-15 {
+  margin-top: 150px;
+}
+
+.bg-ungu {
+  background-color: #5F2EEA;
+}
+
+.allMovie {
+  row-gap: 40px;
 }

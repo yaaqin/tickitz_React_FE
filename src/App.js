@@ -9,6 +9,7 @@ import Detail from "./page/detail";
 import Register from "./page/register"
 import Login from "./page/login";
 import ChooseSeat from "./page/ChooseSeat";
+import Movie from "./page/movie";
 
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+  {
+    path: "/movie",
+    element: <Movie />,
+  }
 ]);
 
 function App() {
