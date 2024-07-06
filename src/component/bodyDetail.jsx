@@ -26,7 +26,7 @@ const navigate = useNavigate()
       //req detail cinema
 
       const requestDetail = await axios.get(
-        `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/detail/${id}`
+        `https://tikitz-v2.adaptable.app/yaqin/movie/detail/${id}`
       );
 
       if (requestDetail.data.data.length > 0) {
@@ -37,7 +37,7 @@ const navigate = useNavigate()
       //req detail cinemas
 
       const requestCinemas = await axios.get(
-        `https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/${id}/cinemas`
+        `https://tikitz-v2.adaptable.app/yaqin/movie/${id}/cinemas`
       );
       if (requestCinemas.data.data.length > 0) {
         setListCinemas(requestCinemas.data.data);

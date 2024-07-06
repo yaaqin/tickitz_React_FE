@@ -26,7 +26,7 @@ function Login() {
     setIsLoading(true);
 
     axios
-      .post("https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/auth/login", {
+      .post("https://tikitz-v2.adaptable.app/yaqin/auth/login", {
         email: email,
         password: password,
       })

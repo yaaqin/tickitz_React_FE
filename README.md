@@ -74,6 +74,6 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Related Project
 
-[`Backend`](https://pijar-camp-batch15-tickitz.cyclic.app)
+[`Backend`](https://tikitz-v2.adaptable.app)
 [`Frontend`](https://tickitz-react-fe.vercel.app)
 

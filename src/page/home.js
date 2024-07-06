@@ -13,7 +13,8 @@ function Home() {
 
   const [resultNowShowing, setResultNowShowing] = React.useState([]);
   const [resultUpcoming, setResultUpcoming] = React.useState([]);
-
+  console.log(resultNowShowing);
+  
   const date = new Date();
   const Month = date
     .toLocaleDateString("default", { month: "short" })
@@ -29,19 +30,19 @@ function Home() {
   const handleGetResponse = async () => {
     try {
       const nowShowing = await axios.get(
-        "https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/now-showing"
+        "https://yaaqin-api.vercel.app/movie.json"
       );
-
+      console.log(nowShowing);
       if (nowShowing.status === 200) {
-        setResultNowShowing(nowShowing.data.data);
+        setResultNowShowing(nowShowing.data);
       }
 
       const upComing = await axios.get(
-        "https://pijar-camp-batch15-tickitz.cyclic.app/yaqin/movie/upcoming"
+        "https://yaaqin-api.vercel.app/movie.json"
       );
 
       if (upComing.status === 200) {
-        setResultUpcoming(upComing.data.data);
+        setResultUpcoming(upComing.data);
       }
     } catch (error) {
       console.log(error);
@@ -97,7 +98,7 @@ function Home() {
             className="d-flex mt-md-5 mt-xs-4 contentNowShowing"
             id="nowShowingContent"
           >
-            {resultNowShowing.slice(0, 5).map((item) => (
+            {resultNowShowing?.slice(0, 5).map((item) => (
               <MovieComp
                 poster={item.poster}
                 title={item.title}
@@ -154,13 +155,11 @@ function Home() {
 
           {/* <!--content--> */}
           <div
-            className="d-flex mt-5 listBannerUpcoming"
+            className="d-flex mt-5 listBannerUpcoming overflow-x-hidden"
             id="nowShowingContent"
           >
-            {resultUpcoming
-              .filter((item) => item.showingMonth === slcMonth)
-              .slice(0, 5)
-              .map((item) => (
+            {resultUpcoming?.filter((item) => item?.showingMonth === slcMonth)
+              .slice(0,5).map((item) => (
                 <MovieComp
                   poster={item.poster}
                   title={item.title}
@@ -171,7 +170,7 @@ function Home() {
               ))}
 
             {/* Movie not Found*/}
-            {resultUpcoming.filter((item) => item.showingMonth === slcMonth)
+            {resultUpcoming?.filter((item) => item.showingMonth === slcMonth)
               .length === 0 ? (
               <span className="text-center mt-5">
                 Movie not found <br />
